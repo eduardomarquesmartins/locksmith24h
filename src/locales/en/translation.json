@@ -1,0 +1,116 @@
+{
+    "nav": {
+        "about": "About",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "brands": "Brands",
+        "zones": "Areas",
+        "contact": "CONTACT"
+    },
+    "mobileMenu": {
+        "about": "About us",
+        "services": "Our services",
+        "portfolio": "Our work",
+        "brands": "Brands",
+        "zones": "Service Areas"
+    },
+    "hero": {
+        "title1": "LOCKSMITHS IN MURCIA AND",
+        "title2": "VEGA BAJA (ALICANTE)",
+        "subtitle_badge": "24/7 EMERGENCY",
+        "subtitle_text": "Specialists in residential and automotive locksmith services. Immediate door and vehicle unlocking across the region.",
+        "card_status": "24/7 Service",
+        "card_role": "Specialist available",
+        "call_now": "Call Now",
+        "write_us": "Message Us"
+    },
+    "about": {
+        "tag": "About Us",
+        "title": "Locksmith Solution – Professional Locksmith Services",
+        "subtitle": "Your lock services in expert hands.",
+        "p1": "At Locksmith Solution, we offer fast, reliable, and professional locksmith services for homes, businesses, and vehicles. We have highly trained locksmiths, state-of-the-art tools, and modern lock service solutions to provide peace of mind and protection at all times.",
+        "p2": "We specialize in residential, commercial, and automotive locksmith services, ensuring efficient and safe work with lasting results. Whether it's an emergency or a lock service project, we are ready to help you with immediate and professional service."
+    },
+    "portfolio": {
+        "tag": "Our Work",
+        "title": "Completed Projects",
+        "desc": "Check out some of the recent services provided by our team throughout the province.",
+        "btn_view": "View Details"
+    },
+    "services": {
+        "tag": "Our Services",
+        "title": "NEED A QUALIFIED PROFESSIONAL?",
+        "desc": "We specialize in unlocking house doors and cars. We make key copies for all car brands. Our mobile team is equipped to handle 24/7 emergencies throughout the Murcia and Cartagena region.",
+        "locks_title": "LOCK REPLACEMENT",
+        "locks_desc": "If you need to change the locks of your home or vehicle, we have a wide variety of options to guarantee excellent lock services for your spaces.",
+        "intercom_title": "INTERCOM INSTALLATION",
+        "intercom_desc": "We offer professional installation of intercoms and video door entry systems for homes, condominiums, and businesses.",
+        "keys_title": "KEY DUPLICATION",
+        "keys_desc": "We make key copies guaranteed for precision and functionality, ensuring reliable replacements.",
+        "cameras_title": "CAMERA INSTALLATION",
+        "cameras_desc": "Camera installation with real-time monitoring from your phone, tablet, or computer.",
+        "auto_title": "AUTOMOTIVE LOCKSMITH",
+        "auto_desc": "Specializing in automotive services, we offer fast solutions for lockouts or lost keys.",
+        "emergency_title": "24/7 EMERGENCY",
+        "emergency_desc": "Our locksmith team is available 24 hours a day, 7 days a week to solve your problems!"
+    },
+    "why_choose": {
+        "tag": "Why Choose Us",
+        "title": "Reliable Service, Built to Last",
+        "desc": "Locksmith Solution delivers expert solutions that protect your property. We combine local knowledge and quality materials for every project.",
+        "col1_title": "Premium Quality",
+        "col1_desc": "We offer the best service with the best value.",
+        "how_tag": "HOW IT WORKS",
+        "how_title": "Caring for Your Home <br/> As if it were Ours",
+        "col3_percent": "100%",
+        "col3_desc": "Of our clients recommend our services for home protection.",
+        "btn_call": "Call Now"
+    },
+    "steps": {
+        "step1_title": "Schedule Your Service",
+        "step1_desc": "From scheduling to completion, we guarantee a stress-free experience.",
+        "step2_title": "Free Evaluation",
+        "step2_desc": "Your lock services are our priority. Request a no-obligation quote.",
+        "step3_title": "Our Team at Work",
+        "step3_desc": "Equipped team ready to deliver quality service in record time."
+    },
+    "testimonials": {
+        "tag": "Client Feedback",
+        "title": "REAL REVIEWS",
+        "desc": "See how we make a difference in real time.",
+        "client": "Verified Client",
+        "t1_text": "COMPETENT STAFF, QUALITY SERVICES",
+        "t2_text": "They arrive quickly and provide excellent service.",
+        "t3_text": "They fixed my lock, which I thought was beyond repair."
+    },
+    "cta": {
+        "tag": "Book Your Service Today",
+        "title": "Your Security and Peace of Mind <br /> Come First"
+    },
+    "areas": {
+        "tag": "Total Coverage",
+        "title": "Service Areas",
+        "desc": "We provide immediate locksmith services throughout the province."
+    },
+    "location": {
+        "tag": "Location",
+        "title": "Where to find us?",
+        "address_title": "Head Office:"
+    },
+    "brands_section": {
+        "tag": "Trust in Every Key",
+        "title": "Brands We Work With",
+        "desc": "We work with all major locksmith and automotive brands."
+    },
+    "footer": {
+        "desc": "We proudly serve property owners using durable, high-quality materials and expert craftsmanship for lasting protection and peace of mind.",
+        "company": "Company",
+        "nav_home": "Home",
+        "nav_about": "About Us",
+        "nav_services": "Services",
+        "nav_portfolio": "Our Work",
+        "nav_zones": "Service Areas",
+        "social": "Social Media",
+        "contact": "Contact"
+    }
+}

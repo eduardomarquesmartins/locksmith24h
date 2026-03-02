@@ -1,0 +1,32 @@
+
+
+# AIOS & Agent related
+.aios-core/
+.agent/
+.antigravity/
+.cursor/
+.gemini/
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# Editor folders
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

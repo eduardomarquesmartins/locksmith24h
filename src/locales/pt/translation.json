@@ -1,0 +1,116 @@
+{
+    "nav": {
+        "about": "Sobre",
+        "services": "Serviços",
+        "portfolio": "Trabalhos",
+        "brands": "Marcas",
+        "zones": "Áreas",
+        "contact": "CONTATO"
+    },
+    "mobileMenu": {
+        "about": "Quem Somos",
+        "services": "Nossos Serviços",
+        "portfolio": "Trabalhos",
+        "brands": "Marcas",
+        "zones": "Áreas de Cobertura"
+    },
+    "hero": {
+        "title1": "CHAVEIROS EM MURCIA E",
+        "title2": "VEGA BAJA (ALICANTE)",
+        "subtitle_badge": "URGÊNCIAS 24 HORAS",
+        "subtitle_text": "Especialistas em fechaduras residenciais e serviços automotivos. Abertura de portas e veículos com atendimento imediato em toda a região.",
+        "card_status": "Atendimento 24h",
+        "card_role": "Especialista disponível",
+        "call_now": "Ligar Agora",
+        "write_us": "Fale Conosco"
+    },
+    "about": {
+        "tag": "Quem Somos",
+        "title": "Locksmith Solution – Serviços Profissionais de Chaveiro",
+        "subtitle": "Suas fechaduras em mãos experientes.",
+        "p1": "Na Locksmith Solution, oferecemos serviços rápidos, confiáveis e profissionais para residências, empresas e veículos. Contamos com chaveiros capacitados, ferramentas de última geração e soluções modernas para proporcionar tranquilidade e proteção a todo momento.",
+        "p2": "Somos especialistas em serviços residenciais, comerciais e automotivos, garantindo um trabalho eficiente, seguro e duradouro. Seja uma emergência ou um projeto de segurança, estamos prontos para ajudar com atendimento imediato."
+    },
+    "portfolio": {
+        "tag": "Nossos Trabalhos",
+        "title": "Serviços Realizados",
+        "desc": "Confira alguns dos atendimentos recentes realizados pela nossa equipe em toda a província.",
+        "btn_view": "Ver Detalhes"
+    },
+    "services": {
+        "tag": "Nossos Serviços",
+        "title": "PRECISA DE UM PROFISSIONAL QUALIFICADO?",
+        "desc": "Especialistas em abertura de portas de casas e carros. Cópias de chaves para todas as marcas de veículos. Equipe móvel preparada para emergências 24h em toda a região de Murcia e Cartagena.",
+        "locks_title": "TROCA DE FECHADURAS",
+        "locks_desc": "Ampla variedade de opções para substituição de fechaduras de casas ou veículos com total segurança.",
+        "intercom_title": "INSTALAÇÃO DE INTERFONES",
+        "intercom_desc": "Instalação profissional de interfones e videoporteiros para residências, condomínios e empresas.",
+        "keys_title": "CÓPIA DE CHAVES",
+        "keys_desc": "Cópia de chaves com garantia de precisão e funcionalidade, assegurando substitutos confiáveis.",
+        "cameras_title": "INSTALAÇÃO DE CÂMERAS",
+        "cameras_desc": "Sistemas de câmeras com monitoramento em tempo real direto do seu celular, tablet ou computador.",
+        "auto_title": "CHAVEIRO AUTOMOTIVO",
+        "auto_desc": "Soluções rápidas e especializadas para chaves presas no veículo, perdidas ou danificadas.",
+        "emergency_title": "EMERGÊNCIA 24 HORAS",
+        "emergency_desc": "Nossa equipe está disponível 24 horas por dia, 7 dias por semana para resolver seu problema!"
+    },
+    "why_choose": {
+        "tag": "Por que nos escolher",
+        "title": "Serviço Confiável, Feito para Durar",
+        "desc": "Entrega de soluções especializadas para proteger seu patrimônio. Combinamos experiência local e materiais de alta qualidade.",
+        "col1_title": "Qualidade Premium",
+        "col1_desc": "Oferecemos o melhor serviço com a melhor relação custo-benefício.",
+        "how_tag": "COMO FUNCIONA",
+        "how_title": "Cuidando do Seu Lar <br/> Como Se Fosse Nosso",
+        "col3_percent": "100%",
+        "col3_desc": "De nossos clientes recomendam nossos serviços para a proteção de suas casas.",
+        "btn_call": "Ligar Agora"
+    },
+    "steps": {
+        "step1_title": "Agende Seu Serviço",
+        "step1_desc": "Do agendamento à conclusão, garantimos uma experiência sem estresse.",
+        "step2_title": "Avaliação Gratuita",
+        "step2_desc": "Sua segurança é nossa prioridade. Solicite um orçamento sem compromisso.",
+        "step3_title": "Equipe em Ação",
+        "step3_desc": "Profissionais equipados para entregar serviço de excelência em tempo recorde."
+    },
+    "testimonials": {
+        "tag": "Opinião dos Clientes",
+        "title": "AVALIAÇÕES REAIS",
+        "desc": "Veja o impacto do nosso trabalho no dia a dia.",
+        "client": "Cliente Verificado",
+        "t1_text": "EQUIPE COMPETENTE E SERVIÇO DE ALTA QUALIDADE",
+        "t2_text": "Chegaram muito rápido e prestaram um atendimento excelente.",
+        "t3_text": "Consertaram uma fechadura que eu já achava não ter recuperação."
+    },
+    "cta": {
+        "tag": "Reserve Seu Atendimento",
+        "title": "Sua Segurança e Tranquilidade <br /> em Primeiro Lugar"
+    },
+    "areas": {
+        "tag": "Cobertura Total",
+        "title": "Regiões que Atendemos",
+        "desc": "Atendimento rápido de chaveiro em toda a extensão da província."
+    },
+    "location": {
+        "tag": "Localização",
+        "title": "Onde nos encontrar?",
+        "address_title": "Escritório Principal:"
+    },
+    "brands_section": {
+        "tag": "Confiança em Cada Chave",
+        "title": "Marcas que Trabalhamos",
+        "desc": "Trabalhamos com as marcas mais conceituadas de fechaduras e sistemas de segurança."
+    },
+    "footer": {
+        "desc": "Atendemos com orgulho utilizando materiais duráveis de alta qualidade para proteção e tranquilidade a longo prazo.",
+        "company": "Empresa",
+        "nav_home": "Início",
+        "nav_about": "Sobre Nós",
+        "nav_services": "Serviços",
+        "nav_portfolio": "Nossos Trabalhos",
+        "nav_zones": "Áreas de Atendimento",
+        "social": "Redes Sociais",
+        "contact": "Contato"
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "nav": {
+        "about": "Sobre",
+        "services": "Servicios",
+        "portfolio": "Trabajos",
+        "brands": "Marcas",
+        "zones": "Zonas",
+        "contact": "CONTACTO"
+    },
+    "mobileMenu": {
+        "about": "Sobre nosotros",
+        "services": "Nuestros servicios",
+        "portfolio": "Trabajos realizados",
+        "brands": "Marcas",
+        "zones": "Zonas"
+    },
+    "hero": {
+        "title1": "CERRAJEROS MURCIA Y",
+        "title2": "VEGA BAJA (ALICANTE)",
+        "subtitle_badge": "URGENCIAS 24 HORAS",
+        "subtitle_text": "Especialistas en servicios de cerraduras residenciales y automotivos. Apertura de puertas y vehículos con atención inmediata en toda la región.",
+        "card_status": "Atendimento 24h",
+        "card_role": "Especialista disponible",
+        "call_now": "Llamar Ahora",
+        "write_us": "Escríbenos"
+    },
+    "about": {
+        "tag": "Quiénes Somos",
+        "title": "Locksmith Solution – Servicios Profesionales de Cerrajero",
+        "subtitle": "Sus servicios de cerradura en manos expertas.",
+        "p1": "En Locksmith Solution, ofrecemos servicios de cerrajero rápidos, confiables y profesionales para residencias, empresas y vehículos. Contamos con cerrajeros altamente capacitados, herramientas de última generación y soluciones modernas en servicios de cerradura para proporcionar tranquilidad y protección en todo momento.",
+        "p2": "Somos especialistas en servicios de cerrajero residenciales, comerciales y automotivos, garantizando un trabajo eficiente y seguro con resultados duraderos. Ya sea una emergencia o un proyecto de servicios de cerradura, estamos listos para ayudarlo con un servicio inmediato y profesional."
+    },
+    "portfolio": {
+        "tag": "Nuestros Trabajos",
+        "title": "Servicios Realizados",
+        "desc": "Conozca algunos de los servicios recientes realizados por nuestro equipo en toda la provincia.",
+        "btn_view": "Ver en Detalle"
+    },
+    "services": {
+        "tag": "Nuestros Servicios",
+        "title": "¿NECESITA UN PROFESIONAL CUALIFICADO?",
+        "desc": "Somos especialistas en apertura de puertas de casas y coches. Hacemos copias de llaves para todas las marcas de coches. Nuestro equipo móvil está equipado para atender emergencias las 24 horas del día en toda la región de Murcia y Cartagena.",
+        "locks_title": "CAMBIO DE CERRADURAS",
+        "locks_desc": "Si necesita cambiar las cerraduras de su hogar o vehículo, tenemos una amplia variedad de opciones para garantizar excelentes servicios de cerradura para sus espacios.",
+        "intercom_title": "INSTALACIÓN DE INTERFONOS",
+        "intercom_desc": "Ofrecemos instalación profesional de interfonos y sistemas de videoportero para residencias, condominios y empresas.",
+        "keys_title": "DUPLICADO DE LLAVES",
+        "keys_desc": "Hacemos copias de llaves con garantía de precisión y funcionalidad, asegurando reemplazos confiables.",
+        "cameras_title": "INSTALACIÓN DE CÁMARAS",
+        "cameras_desc": "Instalación de cámaras con monitoreo en tiempo real desde su teléfono, tableta o computadora.",
+        "auto_title": "CERRAJERO AUTOMOTIVO",
+        "auto_desc": "Especializados en servicios automotivos, ofrecemos soluciones rápidas para bloqueos o pérdida de llaves.",
+        "emergency_title": "EMERGENCIA 24 HORAS",
+        "emergency_desc": "Nuestro equipo de cerrajeros está disponible las 24 horas del día, los 7 días de la semana para resolver sus problemas."
+    },
+    "why_choose": {
+        "tag": "Por qué elegirnos",
+        "title": "Servicio Confiable, Hecho para Durar",
+        "desc": "Locksmith Solution ofrece soluciones especializadas que protegen su propiedad. Combinamos conocimiento local y materiales de calidad para cada proyecto.",
+        "col1_title": "Calidad Premium",
+        "col1_desc": "Ofrecemos el mejor servicio, con la mejor relación calidad-precio.",
+        "how_tag": "CÓMO FUNCIONA",
+        "how_title": "Cuidando de su Hogar <br/> Como si fuera Nuestro",
+        "col3_percent": "100%",
+        "col3_desc": "De nuestros clientes recomiendan nuestros servicios para la protección de viviendas.",
+        "btn_call": "Llamar Ahora"
+    },
+    "steps": {
+        "step1_title": "Programe su Servicio",
+        "step1_desc": "Desde la programación hasta la finalización, garantizamos una experiencia sin estrés.",
+        "step2_title": "Evaluación Gratuita",
+        "step2_desc": "Sus servicios de cerradura son nuestra prioridad. Solicite un presupuesto sin compromiso.",
+        "step3_title": "Nuestro Equipo Trabajando",
+        "step3_desc": "Equipo preparado para entregar un servicio de calidad en un tiempo récord."
+    },
+    "testimonials": {
+        "tag": "Opiniones de los Clientes",
+        "title": "FEEDBACKS REALES",
+        "desc": "Vea cómo marcamos la diferencia en tiempo real.",
+        "client": "Cliente Verificado",
+        "t1_text": "PERSONAL COMPETENTE SERVICIOS DE CALIDAD",
+        "t2_text": "Llegan rápido y brindan un excelente servicio.",
+        "t3_text": "Arreglaron mi cerradura, la cual pensé que no tenía reparación."
+    },
+    "cta": {
+        "tag": "Reserve Su Servicio Hoy",
+        "title": "Su Seguridad y Tranquilidad <br /> en Primer Lugar"
+    },
+    "areas": {
+        "tag": "Cobertura Total",
+        "title": "Regiones que Atendemos",
+        "desc": "Prestamos servicio inmediato de cerrajería en toda la provincia."
+    },
+    "location": {
+        "tag": "Ubicación",
+        "title": "¿Dónde encontrarnos?",
+        "address_title": "Oficina central:"
+    },
+    "brands_section": {
+        "tag": "Confianza en Cada Llave",
+        "title": "Marcas que Trabajamos",
+        "desc": "Trabajamos con las principales marcas de cerrajería y automóviles."
+    },
+    "footer": {
+        "desc": "Servimos a los propietarios con orgullo utilizando materiales duraderos, de alta calidad y artesanía experta para una protección duradera y tranquilidad.",
+        "company": "Empresa",
+        "nav_home": "Inicio",
+        "nav_about": "Sobre Nosotros",
+        "nav_services": "Servicios",
+        "nav_portfolio": "Trabajos",
+        "nav_zones": "Zonas",
+        "social": "Redes Sociales",
+        "contact": "Contacto"
+    }
+}
