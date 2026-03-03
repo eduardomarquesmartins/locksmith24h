@@ -472,7 +472,7 @@ function App() {
                         </div>
                         <div className="how-title-v2" style={{ marginTop: 'auto', paddingBottom: '2rem' }}>
                             <span className="sub-tag" style={{ textTransform: 'uppercase', letterSpacing: '1px' }}>{t('why_choose.how_tag')}</span>
-                            <h2 style={{ fontSize: '3.2rem', lineHeight: '1.1', color: '#0c0c0c', marginBottom: 0 }} dangerouslySetInnerHTML={{ __html: t('why_choose.how_title') }}></h2>
+                            <h2 style={{ fontSize: '2.8rem', lineHeight: '1.1', color: '#0c0c0c', marginBottom: 0 }} dangerouslySetInnerHTML={{ __html: t('why_choose.how_title') }}></h2>
                         </div>
                     </div>
 
