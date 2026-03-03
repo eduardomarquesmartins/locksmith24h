@@ -173,7 +173,7 @@ function App() {
                                 <motion.span
                                     animate={{ opacity: [1, 0.4, 1] }}
                                     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                                    style={{ color: '#00a651', fontWeight: '700', fontSize: '1.2rem', display: 'block', marginBottom: '0.5rem' }}
+                                    style={{ color: '#00a651', fontWeight: '500', fontSize: '1.2rem', display: 'block', marginBottom: '0.5rem' }}
                                 >
                                     {t('hero.subtitle_badge')}
                                 </motion.span>

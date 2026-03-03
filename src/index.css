@@ -74,7 +74,7 @@ h2,
 h3,
 h4 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .container {
@@ -97,7 +97,7 @@ h4 {
     padding: 0.4rem 1rem;
     border-radius: 99px;
     font-size: 0.875rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--primary);
 }
 
@@ -165,7 +165,7 @@ h4 {
     background: none;
     border: none;
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #495057;
     cursor: pointer;
     padding: 6px 8px;
@@ -230,7 +230,7 @@ h4 {
 .desktop-menu a {
     text-decoration: none;
     color: var(--text);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1rem;
     transition: var(--transition);
 }
@@ -246,7 +246,7 @@ h4 {
     padding: 0.8rem 1.6rem;
     border-radius: 99px;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     transition: var(--transition);
     border: none;
     box-shadow: 0 4px 14px 0 var(--primary-glow);
@@ -285,7 +285,7 @@ h4 {
     padding: 1.25rem 2.5rem;
     border-radius: 99px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     transition: var(--transition);
 }
 
@@ -539,7 +539,7 @@ h4 {
 }
 
 .floating-card .name {
-    font-weight: 900;
+    font-weight: 500;
     font-size: 1.5rem;
     color: #0c0c0c;
     margin-bottom: 0.25rem;
@@ -549,7 +549,7 @@ h4 {
 .floating-card .role {
     font-size: 1.1rem;
     color: #6b7280;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .floating-card .card-actions {
@@ -569,7 +569,7 @@ h4 {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.15rem;
     text-decoration: none;
     box-shadow: 0 10px 30px rgba(0, 166, 81, 0.25);
@@ -619,7 +619,7 @@ h4 {
 .sub-tag {
     display: inline-block;
     color: #00a651;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
@@ -631,7 +631,7 @@ h4 {
     line-height: 1.1;
     margin-bottom: 2rem;
     color: #0c0c0c;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .about-content p {
@@ -655,7 +655,7 @@ h4 {
 
 .stat-number {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 500;
     color: #0c0c0c;
 }
 
@@ -881,7 +881,7 @@ h4 {
 
 .big-percent {
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #00a651;
     margin-bottom: 1.5rem;
     letter-spacing: -2px;
@@ -903,7 +903,7 @@ h4 {
     text-align: center;
     padding: 1.25rem;
     border-radius: 20px;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     margin-top: auto;
 }
@@ -954,7 +954,7 @@ h4 {
     color: white;
     padding: 1rem 2.5rem;
     border-radius: 99px;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -972,7 +972,7 @@ h4 {
 
 .step-num {
     font-size: 1.25rem;
-    font-weight: 800;
+    font-weight: 500;
     color: #00a651;
     background: #f0fdf4;
     width: 60px;
@@ -1015,7 +1015,7 @@ h4 {
     border-radius: 99px;
     color: white;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     transition: all 0.3s ease;
 }
 
@@ -1030,7 +1030,7 @@ h4 {
     color: white;
     border-radius: 99px;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* Services */
@@ -1047,7 +1047,7 @@ h4 {
 .section-header h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .section-center-header {
@@ -1058,7 +1058,7 @@ h4 {
     font-size: 3rem;
     line-height: 1.1;
     margin-bottom: 1rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .services-grid {
@@ -1097,7 +1097,7 @@ h4 {
 .service-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* Emergency CTA */
@@ -1117,7 +1117,7 @@ h4 {
 
 .cta-content h2 {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .btn-emergency {
@@ -1126,7 +1126,7 @@ h4 {
     padding: 1.25rem 2.5rem;
     border-radius: 99px;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.125rem;
     display: flex;
     align-items: center;
@@ -1489,7 +1489,7 @@ h4 {
     align-items: center;
     justify-content: center;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 0.9rem;
     text-transform: uppercase;
     font-family: inherit;
@@ -1531,7 +1531,7 @@ h4 {
     color: white;
     padding: 1rem 2.5rem;
     border-radius: 99px;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease;
     width: fit-content;
@@ -1590,7 +1590,7 @@ h4 {
 
 .location-title {
     font-size: 2.8rem;
-    font-weight: 800;
+    font-weight: 500;
     color: #0c0c0c;
     line-height: 1.1;
     margin-bottom: 2rem;
@@ -1687,7 +1687,7 @@ h4 {
 .footer-logo-text {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -1785,7 +1785,7 @@ h4 {
     background: #ff3b30;
     color: white;
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 500;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -1887,7 +1887,7 @@ h4 {
         text-decoration: none;
         color: var(--text);
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 500;
         text-align: center;
     }
 
@@ -2173,7 +2173,7 @@ h4 {
 
 .areas-header-v3 h2 {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 500;
     letter-spacing: -1.5px;
     margin-bottom: 0.5rem;
     color: white;
@@ -2271,14 +2271,14 @@ h4 {
     padding: 0.5rem 1.25rem;
     border-radius: 99px;
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .portfolio-header h2 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #0c0c0c;
     letter-spacing: -2px;
     margin-top: 1.5rem;
@@ -2372,7 +2372,7 @@ h4 {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1rem;
     color: #0c0c0c;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
@@ -2434,7 +2434,7 @@ h4 {
     margin-top: 4rem;
     color: #a1a1aa;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.5px;
 }
 
@@ -2678,7 +2678,7 @@ h4 {
     font-size: 2.8rem;
     color: #0c0c0c;
     margin-bottom: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .section-head-v2 p {
@@ -2739,7 +2739,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.2rem;
     box-shadow: 0 10px 20px rgba(0, 166, 81, 0.3);
     z-index: 2;
@@ -2756,7 +2756,7 @@ h4 {
     font-size: 1.8rem;
     margin-bottom: 1.25rem;
     color: #0c0c0c;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .case-info p {
@@ -2771,7 +2771,7 @@ h4 {
     display: inline-block;
     color: var(--primary);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.1rem;
     position: relative;
     padding-bottom: 5px;
@@ -2819,7 +2819,7 @@ h4 {
 .section-head-v2.light-text h2 {
     color: white;
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 500;
     letter-spacing: -2px;
 }
 
@@ -2897,7 +2897,7 @@ h4 {
     align-items: center;
     gap: 0.5rem;
     font-size: 0.75rem;
-    font-weight: 800;
+    font-weight: 500;
     color: #ff4d4d;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2932,7 +2932,7 @@ h4 {
     gap: 1rem;
     color: white;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .info-icon {
