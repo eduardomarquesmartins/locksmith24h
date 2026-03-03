@@ -39,7 +39,7 @@
         "tag": "About Us",
         "title": "Experts in Automotive and Residential Locks and Keys",
         "subtitle": "State-of-the-art technology for your vehicle and your home.",
-        "p1": "At Locksmith Solution, we solve your car key and house lock problems in one place. We combine advanced coding technology with the best locksmith solutions on the market.",
+        "p1": "At Locksmith Solutions, we solve your car key and house lock problems in one place. We combine advanced coding technology with the best locksmith solutions on the market.",
         "p2": "Equipped with electronic cutting machines and next-gen diagnostic software, we solve 99% of problems on-site, saving you time and money."
     },
     "portfolio": {
@@ -75,7 +75,7 @@
     "why_choose": {
         "tag": "Why Choose Us",
         "title": "Reliable Service, Built to Last",
-        "desc": "Locksmith Solution delivers expert solutions that protect your property. We combine local knowledge and quality materials for every project.",
+        "desc": "Locksmith Solutions delivers expert solutions that protect your property. We combine local knowledge and quality materials for every project.",
         "col1_title": "Premium Quality",
         "col1_desc": "We offer the best service with the best value.",
         "how_tag": "HOW IT WORKS",
@@ -133,6 +133,25 @@
         "nav_portfolio": "Our Work",
         "nav_zones": "Service Areas",
         "social": "Social Media",
-        "contact": "Contact"
+        "contact": "Contact",
+        "aviso": "LEGAL NOTICE",
+        "privacidad": "PRIVACY POLICY",
+        "cookies": "COOKIE POLICY",
+        "rights": "© 2026 Locksmith Solutions. All rights reserved."
+    },
+    "cookies": {
+        "title": "Cookie Settings",
+        "desc": "We use cookies to improve your experience and analyze traffic. You can accept all or decline non-essential.",
+        "accept": "Accept All",
+        "decline": "Essential Only",
+        "settings": "View details",
+        "hide_settings": "Hide details",
+        "tech_title": "LEGAL NOTICE",
+        "tech_desc": "Information about website ownership and legal terms of use.",
+        "analysis_title": "PRIVACY POLICY",
+        "analysis_desc": "Details on how we protect and process your personal data.",
+        "marketing_title": "COOKIE POLICY",
+        "marketing_desc": "Detailed information on cookie usage and management.",
+        "read_more": "Read more"
     }
 }

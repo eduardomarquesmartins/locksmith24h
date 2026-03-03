@@ -1,7 +1,20 @@
 import React, { useState, useEffect, Suspense, lazy } from 'react'
-import { Phone, Car, Home, Clock, Shield, MapPin, CheckCircle2, Menu, X, Key, Video, Radio, AlertTriangle, Lock, MessageSquare, Facebook, Instagram } from 'lucide-react'
+import { Phone, Car, Home, Clock, Shield, MapPin, CheckCircle2, Menu, X, Key, Video, Radio, AlertTriangle, Lock, Facebook, Instagram, Mail } from 'lucide-react'
 import { useMotionValue, useSpring, useTransform, motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
+
+const WhatsAppIcon = ({ size = 24, fill = "currentColor", ...props }) => (
+    <svg
+        viewBox="0 0 24 24"
+        width={size}
+        height={size}
+        fill={fill}
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+    </svg>
+);
 
 // Optimized Components
 import LazyVideo from './components/LazyVideo'
@@ -10,6 +23,8 @@ const Portfolio = lazy(() => import('./components/Portfolio'))
 
 // Essential static imports
 import logo from './public/logo.jpg.png'
+import CookieBanner from './components/CookieBanner'
+import LegalModal from './components/LegalModal'
 import keysback from './public/keysback.png'
 import heroBg from './public/background.png'
 import house2Image from './public/photos/WhatsApp Image 2026-03-02 at 17.08.15.jpeg'
@@ -41,11 +56,18 @@ const CarsMarquee = lazy(() => import('./components/Marquees').then(m => ({ defa
 function App() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [isScrolled, setIsScrolled] = useState(false);
+    const [legalType, setLegalType] = useState(null);
+    const [isLegalOpen, setIsLegalOpen] = useState(false);
     const { t, i18n } = useTranslation();
     const companyLogo = logo;
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
+    };
+
+    const openLegal = (type) => {
+        setLegalType(type);
+        setIsLegalOpen(true);
     };
 
 
@@ -107,8 +129,14 @@ function App() {
                             <button className={`lang-btn ${i18n.language === 'pt' ? 'active' : ''}`} onClick={() => changeLanguage('pt')} title="Português">
                                 <img src="https://flagcdn.com/w40/pt.png" alt="Português" className="flag-icon" />
                             </button>
+                            <button className={`lang-btn ${i18n.language === 'fr' ? 'active' : ''}`} onClick={() => changeLanguage('fr')} title="Français">
+                                <img src="https://flagcdn.com/w40/fr.png" alt="Français" className="flag-icon" />
+                            </button>
+                            <button className={`lang-btn ${i18n.language === 'ru' ? 'active' : ''}`} onClick={() => changeLanguage('ru')} title="Русский">
+                                <img src="https://flagcdn.com/w40/ru.png" alt="Русский" className="flag-icon" />
+                            </button>
                         </div>
-                        <a href="https://wa.me/34613227826" className="btn-primary desktop-only" target="_blank" rel="noopener noreferrer">{t('nav.contact')}</a>
+                        <a href="https://wa.me/34602659054" className="btn-primary desktop-only" target="_blank" rel="noopener noreferrer">{t('nav.contact')}</a>
                         <button className="mobile-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                             {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
                         </button>
@@ -200,7 +228,7 @@ function App() {
                                 </div>
                                 <div className="card-actions">
                                     <motion.a
-                                        href="tel:+34613227826"
+                                        href="tel:+34602659054"
                                         className="phone-link call-btn"
                                         whileHover={{ scale: 1.05, y: -4 }}
                                         whileTap={{ scale: 0.95 }}
@@ -211,14 +239,14 @@ function App() {
                                         <span>{t('hero.call_now')}</span>
                                     </motion.a>
                                     <motion.a
-                                        href="https://wa.me/34613227826"
+                                        href="https://wa.me/34602659054"
                                         className="phone-link wa-btn"
                                         whileHover={{ scale: 1.05, y: -4 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: "spring", stiffness: 400, damping: 10 }}
                                         onMouseMove={(e) => e.stopPropagation()}
                                     >
-                                        <MessageSquare fill="currentColor" size={20} />
+                                        <WhatsAppIcon fill="currentColor" size={20} />
                                         <span>{t('hero.write_us')}</span>
                                     </motion.a>
                                 </div>
@@ -250,7 +278,7 @@ function App() {
                         <div className="case-info">
                             <h3>{t('emergency_cases.case3_title')}</h3>
                             <p>{t('emergency_cases.case3_desc')}</p>
-                            <a href="https://wa.me/34613227826" className="case-link">{t('emergency_cases.btn')}</a>
+                            <a href="https://wa.me/34602659054" className="case-link">{t('emergency_cases.btn')}</a>
                         </div>
                     </motion.div>
 
@@ -268,7 +296,7 @@ function App() {
                         <div className="case-info">
                             <h3>{t('emergency_cases.case2_title')}</h3>
                             <p>{t('emergency_cases.case2_desc')}</p>
-                            <a href="https://wa.me/34613227826" className="case-link">{t('emergency_cases.btn')}</a>
+                            <a href="https://wa.me/34602659054" className="case-link">{t('emergency_cases.btn')}</a>
                         </div>
                     </motion.div>
 
@@ -494,7 +522,7 @@ function App() {
                             <span className="big-percent">{t('why_choose.col3_percent')}</span>
                             <p>{t('why_choose.col3_desc')}</p>
                             <img src={whyChooseFixing} alt="Profissional chaveiro" className="card-inner-img" />
-                            <a href="tel:+34613227826" className="btn-vibe-green">{t('why_choose.btn_call')}</a>
+                            <a href="tel:+34602659054" className="btn-vibe-green">{t('why_choose.btn_call')}</a>
                         </div>
                     </div>
                 </div>
@@ -592,8 +620,8 @@ function App() {
                 <div className="cta-banner-content">
                     <span className="sub-tag text-green">{t('cta.tag')}</span>
                     <h2 dangerouslySetInnerHTML={{ __html: t('cta.title') }}></h2>
-                    <a href="https://wa.me/34613227826" className="btn-dark-cta" target="_blank" rel="noopener noreferrer">
-                        <span className="btn-icon"><MessageSquare fill="currentColor" size={18} /></span> +34 613 227 826
+                    <a href="https://wa.me/34602659054" className="btn-dark-cta" target="_blank" rel="noopener noreferrer">
+                        <span className="btn-icon"><WhatsAppIcon fill="currentColor" size={18} /></span> +34 602 659 054
                     </a>
                 </div>
                 <div className="cta-banner-img">
@@ -603,7 +631,7 @@ function App() {
 
             {/* Floating WhatsApp Button */}
             <motion.a
-                href="https://wa.me/34613227826"
+                href="https://wa.me/34602659054"
                 className="whatsapp-fab"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -613,7 +641,7 @@ function App() {
                 whileTap={{ scale: 0.9 }}
             >
                 <div className="fab-icon">
-                    <MessageSquare size={32} />
+                    <WhatsAppIcon size={32} />
                     <span className="fab-badge">1</span>
                 </div>
             </motion.a>
@@ -711,7 +739,7 @@ function App() {
             <footer className="footer-dark">
                 <div className="container footer-grid-dark">
                     <div className="footer-brand">
-                        <h2 className="footer-logo-text">Locksmith Solution</h2>
+                        <h2 className="footer-logo-text">Locksmith Solutions</h2>
                         <img src={logo} alt="Locksmith Service" className="footer-brand-img" />
                     </div>
 
@@ -731,19 +759,38 @@ function App() {
                                 <h4>{t('footer.social')}</h4>
                                 <a href="https://www.facebook.com/people/Lock-Smith/61579581643179" target="_blank" rel="noopener noreferrer"><Facebook size={18} /> Facebook</a>
                                 <a href="https://www.instagram.com/locksmith24h/" target="_blank" rel="noopener noreferrer"><Instagram size={18} /> Instagram</a>
-                                <a href="https://wa.me/34613227826" target="_blank" rel="noopener noreferrer"><MessageSquare size={18} /> WhatsApp</a>
+                                <a href="https://wa.me/34602659054" target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18} /> WhatsApp</a>
                             </div>
                             <div className="footer-col contact-col">
                                 <h4>{t('footer.contact')}</h4>
-                                <p><Phone size={18} /> +34 613 227 826</p>
-                                <p><MessageSquare size={18} /> lcksmithsolutiones@gmail.com</p>
+                                <p><Phone size={18} /> +34 602 659 054</p>
+                                <p><Mail size={18} /> locksmith.orihuela@gmail.com</p>
                                 <p><MapPin size={18} /> C. Pico Lobo, 7A, 03189 Orihuela, Alicante</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className="container">
+                    <div className="footer-legal-links">
+                        <button onClick={() => openLegal('aviso')} className="legal-link-btn">{t('footer.aviso')}</button>
+                        <button onClick={() => openLegal('privacidad')} className="legal-link-btn">{t('footer.privacidad')}</button>
+                        <button onClick={() => openLegal('cookies_policy')} className="legal-link-btn">{t('footer.cookies')}</button>
+                    </div>
+                </div>
+                <div className="footer-bottom">
+                    <div className="container">
+                        <p className="copyright-text">{t('footer.rights')}</p>
+                    </div>
+                </div>
             </footer>
-        </div>
+
+            <CookieBanner openLegal={openLegal} />
+            <LegalModal
+                isOpen={isLegalOpen}
+                onClose={() => setIsLegalOpen(false)}
+                type={legalType}
+            />
+        </div >
     )
 }
 

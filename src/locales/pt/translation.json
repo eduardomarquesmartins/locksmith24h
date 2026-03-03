@@ -39,7 +39,7 @@
         "tag": "Quem Somos",
         "title": "Especialistas em Chaves e Fechaduras Automotivas e Residenciais",
         "subtitle": "Tecnologia de ponta para o seu veículo e para o seu lar.",
-        "p1": "Na Locksmith Solution, resolvemos seus problemas com chaves de carro e fechaduras de casa em um só lugar. Unimos tecnologia avançada de codificação com as melhores soluções de chaveiro do mercado.",
+        "p1": "Na Locksmith Solutions, resolvemos seus problemas com chaves de carro e fechaduras de casa em um só lugar. Unimos tecnologia avançada de codificação com as melhores soluções de chaveiro do mercado.",
         "p2": "Equipados com máquinas de corte eletrônico e softwares de diagnóstico de última geração, resolvemos 99% dos problemas no local, economizando seu tempo e dinheiro."
     },
     "portfolio": {
@@ -133,6 +133,25 @@
         "nav_portfolio": "Nossos Trabalhos",
         "nav_zones": "Áreas de Atendimento",
         "social": "Redes Sociais",
-        "contact": "Contato"
+        "contact": "Contato",
+        "aviso": "AVISO LEGAL",
+        "privacidad": "POLÍTICA DE PRIVACIDADE",
+        "cookies": "POLÍTICA DE COOKIES",
+        "rights": "© 2026 Locksmith Solutions. Todos os direitos reservados."
+    },
+    "cookies": {
+        "title": "Configuração de Cookies",
+        "desc": "Utilizamos cookies para melhorar a sua experiência e analisar o tráfego. Pode aceitar todos ou recusar os não essenciais.",
+        "accept": "Aceitar Todos",
+        "decline": "Apenas Essenciais",
+        "settings": "Ver detalhes",
+        "hide_settings": "Ocultar detalhes",
+        "tech_title": "AVISO LEGAL",
+        "tech_desc": "Informações sobre a titularidade do site e condições legais de uso.",
+        "analysis_title": "POLÍTICA DE PRIVACIDADE",
+        "analysis_desc": "Detalhes sobre como protegemos e tratamos os seus dados pessoais.",
+        "marketing_title": "POLÍTICA DE COOKIES",
+        "marketing_desc": "Informações detalhadas sobre o uso de cookies e como geri-los.",
+        "read_more": "Ler mais"
     }
 }

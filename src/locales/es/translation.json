@@ -39,7 +39,7 @@
         "tag": "Quiénes Somos",
         "title": "Especialistas en Llaves y Cerraduras Automotrices y Residenciales",
         "subtitle": "Tecnología de vanguardia para su vehículo y su hogar.",
-        "p1": "En Locksmith Solution, resolvemos sus problemas con llaves de coche y cerraduras de casa en un solo lugar. Combinamos tecnología avanzada de codificación con las mejores soluciones de cerrajería del mercado.",
+        "p1": "En Locksmith Solutions, resolvemos sus problemas con llaves de coche y cerraduras de casa en un solo lugar. Combinamos tecnología avanzada de codificación con las mejores soluciones de cerrajería del mercado.",
         "p2": "Equipados con máquinas de corte electrónico y software de diagnóstico de última generación, resolvemos el 99% de los problemas en el lugar, ahorrándole tiempo y dinero."
     },
     "portfolio": {
@@ -75,7 +75,7 @@
     "why_choose": {
         "tag": "Por qué elegirnos",
         "title": "Servicio Confiable, Hecho para Durar",
-        "desc": "Locksmith Solution ofrece soluciones especializadas que protegen su propiedad. Combinamos conocimiento local y materiales de calidad para cada proyecto.",
+        "desc": "Locksmith Solutions ofrece soluciones especializadas que protegen su propiedad. Combinamos conocimiento local y materiales de calidad para cada proyecto.",
         "col1_title": "Calidad Premium",
         "col1_desc": "Ofrecemos el mejor servicio, con la mejor relación calidad-precio.",
         "how_tag": "CÓMO FUNCIONA",
@@ -133,6 +133,25 @@
         "nav_portfolio": "Trabajos",
         "nav_zones": "Zonas",
         "social": "Redes Sociales",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "aviso": "AVISO LEGAL",
+        "privacidad": "POLÍTICA DE PRIVACIDAD",
+        "cookies": "POLÍTICA DE COOKIES",
+        "rights": "© 2026 Locksmith Solutions. Todos los derechos reservados."
+    },
+    "cookies": {
+        "title": "Configuración de Cookies",
+        "desc": "Utilizamos cookies para mejorar su experiencia y analizar el tráfico. Puede aceptar todas las cookies o configurar sus preferencias.",
+        "accept": "Aceptar todas",
+        "decline": "Solo esenciales",
+        "settings": "Ver detalles",
+        "hide_settings": "Ocultar detalles",
+        "tech_title": "AVISO LEGAL",
+        "tech_desc": "Información sobre la titularidad del sitio web y condiciones legales de uso.",
+        "analysis_title": "POLÍTICA DE PRIVACIDAD",
+        "analysis_desc": "Detalles sobre cómo protegemos y tratamos sus datos personales.",
+        "marketing_title": "POLÍTICA DE COOKIES",
+        "marketing_desc": "Información detallada sobre el uso de cookies y cómo gestionarlas.",
+        "read_more": "Leer más"
     }
 }
