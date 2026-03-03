@@ -15,44 +15,62 @@
         "zones": "Zonas"
     },
     "hero": {
-        "title1": "CERRAJEROS MURCIA Y",
-        "title2": "VEGA BAJA (ALICANTE)",
+        "title1": "LLAVES CODIFICADAS Y",
+        "title2": "CERRAJERÍA DE AUTOMOCIÓN",
         "subtitle_badge": "URGENCIAS 24 HORAS",
-        "subtitle_text": "Especialistas en servicios de cerraduras residenciales y automotivos. Apertura de puertas y vehículos con atención inmediata en toda la región.",
+        "subtitle_text": "Especialistas en copias de llaves de coche, llaves codificadas y mandos. Apertura de vehículos y servicios residenciales con atención rápida en toda la región.",
         "card_status": "Atendimento 24h",
         "card_role": "Especialista disponible",
         "call_now": "Llamar Ahora",
         "write_us": "Escríbenos"
     },
+    "emergency_cases": {
+        "title": "¿Qué ha pasado con su vehículo o vivienda?",
+        "subtitle": "Asistencia técnica especializada lista para salir ahora. Elige tu caso:",
+        "case1_title": "¿Se ha quedado fuera?",
+        "case1_desc": "Apertura técnica sin daños. Resolvemos en minutos casos de llaves olvidadas dentro o puertas bloqueadas.",
+        "case2_title": "¿Llave Atascada o No Gira?",
+        "case2_desc": "Reparación de bombín de contacto y cilindros in situ. No fuerce la llave, lo solucionamos sin cambiar piezas innecesarias.",
+        "case3_title": "¿Perdió su Única Llave?",
+        "case3_desc": "Hacemos llaves nuevas desde cero allí mismo (Lost Key Cases). Programación completa para que pueda volver a circular.",
+        "btn": "Solicitar Asistencia Ahora"
+    },
     "about": {
         "tag": "Quiénes Somos",
-        "title": "Locksmith Solution – Servicios Profesionales de Cerrajero",
-        "subtitle": "Sus servicios de cerradura en manos expertas.",
-        "p1": "En Locksmith Solution, ofrecemos servicios de cerrajero rápidos, confiables y profesionales para residencias, empresas y vehículos. Contamos con cerrajeros altamente capacitados, herramientas de última generación y soluciones modernas en servicios de cerradura para proporcionar tranquilidad y protección en todo momento.",
-        "p2": "Somos especialistas en servicios de cerrajero residenciales, comerciales y automotivos, garantizando un trabajo eficiente y seguro con resultados duraderos. Ya sea una emergencia o un proyecto de servicios de cerradura, estamos listos para ayudarlo con un servicio inmediato y profesional."
+        "title": "Especialistas en Llaves y Cerraduras Automotrices y Residenciales",
+        "subtitle": "Tecnología de vanguardia para su vehículo y su hogar.",
+        "p1": "En Locksmith Solution, resolvemos sus problemas con llaves de coche y cerraduras de casa en un solo lugar. Combinamos tecnología avanzada de codificación con las mejores soluciones de cerrajería del mercado.",
+        "p2": "Equipados con máquinas de corte electrónico y software de diagnóstico de última generación, resolvemos el 99% de los problemas en el lugar, ahorrándole tiempo y dinero."
     },
     "portfolio": {
         "tag": "Nuestros Trabajos",
+        "video_tag": "Casos Reales",
         "title": "Servicios Realizados",
         "desc": "Conozca algunos de los servicios recientes realizados por nuestro equipo en toda la provincia.",
-        "btn_view": "Ver en Detalle"
+        "btn_view": "Ver en Detalle",
+        "video_title": "Precisión en Cada Detalle",
+        "video_desc": "Atenciones reales, soluciones inmediatas. Vea cómo nuestro equipo resuelve emergencias en toda la región.",
+        "video_item1": "Programación",
+        "video_item2": "Residencial",
+        "video_item3": "Especializado",
+        "video_badge": "TRABAJO REAL"
     },
     "services": {
-        "tag": "Nuestros Servicios",
-        "title": "¿NECESITA UN PROFESIONAL CUALIFICADO?",
-        "desc": "Somos especialistas en apertura de puertas de casas y coches. Hacemos copias de llaves para todas las marcas de coches. Nuestro equipo móvil está equipado para atender emergencias las 24 horas del día en toda la región de Murcia y Cartagena.",
-        "locks_title": "CAMBIO DE CERRADURAS",
-        "locks_desc": "Si necesita cambiar las cerraduras de su hogar o vehículo, tenemos una amplia variedad de opciones para garantizar excelentes servicios de cerradura para sus espacios.",
-        "intercom_title": "INSTALACIÓN DE INTERFONOS",
-        "intercom_desc": "Ofrecemos instalación profesional de interfonos y sistemas de videoportero para residencias, condominios y empresas.",
-        "keys_title": "DUPLICADO DE LLAVES",
-        "keys_desc": "Hacemos copias de llaves con garantía de precisión y funcionalidad, asegurando reemplazos confiables.",
-        "cameras_title": "INSTALACIÓN DE CÁMARAS",
-        "cameras_desc": "Instalación de cámaras con monitoreo en tiempo real desde su teléfono, tableta o computadora.",
-        "auto_title": "CERRAJERO AUTOMOTIVO",
-        "auto_desc": "Especializados en servicios automotivos, ofrecemos soluciones rápidas para bloqueos o pérdida de llaves.",
-        "emergency_title": "EMERGENCIA 24 HORAS",
-        "emergency_desc": "Nuestro equipo de cerrajeros está disponible las 24 horas del día, los 7 días de la semana para resolver sus problemas."
+        "tag": "Especialidades",
+        "title": "CERRAJERO ESPECIALISTA",
+        "desc": "Soluciones profesionales para todo tipo de cerraduras y sistemas de llaves electrónicas.",
+        "locks_title": "CERRADURAS RESIDENCIALES",
+        "locks_desc": "Instalación y reparación de cilindros de alta tecnología, antibumping y cerraduras para casas y apartamentos.",
+        "auto_title": "LLAVES CODIFICADAS",
+        "auto_desc": "Programación completa de llaves inteligentes, mandos a distancia y Smart Keys para todas las marcas de vehículos.",
+        "keys_title": "COPIAS DE PRECISIÓN",
+        "keys_desc": "Duplicación de llaves residenciales y automotrices con máquinas electrónicas que garantizan el 100% de funcionamento.",
+        "vehicle_locks_title": "CERRADURAS VEHICULARES",
+        "vehicle_locks_desc": "Reparación y sustitución de bombines de puerta, contacto y maleteros. Especialistas en mecánica vehicular.",
+        "emergency_title": "APERTURA TÉCNICA",
+        "emergency_desc": "Apertura de vehículos y puertas residenciales sin daños. Técnicas profissionais para emergencias 24h.",
+        "access_title": "ATENCIÓN 24H",
+        "access_desc": "Unidades móviles listas en toda la región para resolver cualquier emergencia de cerrajería en tiempo récord, día o noche."
     },
     "why_choose": {
         "tag": "Por qué elegirnos",
@@ -61,7 +79,7 @@
         "col1_title": "Calidad Premium",
         "col1_desc": "Ofrecemos el mejor servicio, con la mejor relación calidad-precio.",
         "how_tag": "CÓMO FUNCIONA",
-        "how_title": "Cuidando de su Hogar <br/> Como si fuera Nuestro",
+        "how_title": "Cuidando de lo que es suyo <br/> como si fuera nuestro",
         "col3_percent": "100%",
         "col3_desc": "De nuestros clientes recomiendan nuestros servicios para la protección de viviendas.",
         "btn_call": "Llamar Ahora"
@@ -85,7 +103,7 @@
     },
     "cta": {
         "tag": "Reserve Su Servicio Hoy",
-        "title": "Su Seguridad y Tranquilidad <br /> en Primer Lugar"
+        "title": "Cerraduras y <br /> Codificación de Llaves"
     },
     "areas": {
         "tag": "Cobertura Total",
@@ -100,7 +118,11 @@
     "brands_section": {
         "tag": "Confianza en Cada Llave",
         "title": "Marcas que Trabajamos",
-        "desc": "Trabajamos con las principales marcas de cerrajería y automóviles."
+        "desc": "Trabajamos con las marcas más reconocidas de cerraduras y llaves."
+    },
+    "cars_section": {
+        "tag": "Cerrajería de Automoción",
+        "title": "Especialistas en Todas las Marcas"
     },
     "footer": {
         "desc": "Servimos a los propietarios con orgullo utilizando materiales duraderos, de alta calidad y artesanía experta para una protección duradera y tranquilidad.",

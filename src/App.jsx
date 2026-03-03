@@ -1,125 +1,48 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Suspense, lazy } from 'react'
 import { Phone, Car, Home, Clock, Shield, MapPin, CheckCircle2, Menu, X, Key, Video, Radio, AlertTriangle, Lock, MessageSquare, Facebook, Instagram } from 'lucide-react'
 import { useMotionValue, useSpring, useTransform, motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
+
+// Optimized Components
+import LazyVideo from './components/LazyVideo'
+const ServiceMap = lazy(() => import('./components/ServiceMap'))
+const Portfolio = lazy(() => import('./components/Portfolio'))
+
+// Essential static imports
 import logo from './public/logo.jpg.png'
 import keysback from './public/keysback.png'
 import heroBg from './public/background.png'
-import house2Image from './public/premium-car-macro.png'
-import modernKeys from './public/services/IMG-20250901-WA0023.webp'
-import locksmithToolsMacro from './public/locksmith_tools_macro.png'
-import carKeyFob from './public/car_key_fob.png'
-import ctaBg from './public/services/IMG-20250901-WA0014.webp'
+import house2Image from './public/photos/WhatsApp Image 2026-03-02 at 17.08.15.jpeg'
+import toolsDetail from './public/photos/WhatsApp Image 2026-03-02 at 17.07.02 (1).jpeg'
+import whyChooseFixing from './public/photos/WhatsApp Image 2026-03-02 at 17.03.19.jpeg'
 import car3d from './public/car.png'
 import videoMedia from './public/video.mp4'
-import imgLocks from './public/services/IMG-20250901-WA0014.webp'
-import imgIntercom from './public/services/IMG-20250901-WA0037.webp'
-import imgKeys from './public/service-keys.png'
-import imgCameras from './public/services/IMG-20250901-WA0033.webp'
-import imgAutomotive from './public/service-automotive.png'
+import videoGallery from './public/video/WhatsApp Video 2026-03-02 at 17.08.15.mp4'
+import extraVideo1 from './public/video/WhatsApp Video 2026-03-02 at 17.03.35.mp4'
+import extraVideo2 from './public/video/WhatsApp Video 2026-03-02 at 17.03.42.mp4'
+import extraVideo3 from './public/video/WhatsApp Video 2026-03-02 at 17.03.52.mp4'
+import extraVideo4 from './public/video/WhatsApp Video 2026-03-02 at 17.03.41.mp4'
 import imgEmergency from './public/howto.png'
-import srv1 from './public/services/IMG-20250901-WA0001.webp'
 import srv2 from './public/services/IMG-20250901-WA0006.webp'
 import srv3 from './public/services/IMG-20250901-WA0008.webp'
 import srv4 from './public/services/IMG-20250901-WA0010.webp'
 import srv5 from './public/services/IMG-20250901-WA0014.webp'
-import srv6 from './public/services/IMG-20250901-WA0016.webp'
-import srv7 from './public/services/IMG-20250901-WA0036.webp'
-import srv8 from './public/services/IMG-20250901-WA0044.webp'
-import srv9 from './public/services/IMG-20250901-WA0046.webp'
-import srv10 from './public/services/IMG-20250901-WA0047.webp'
-import srv11 from './public/services/IMG-20250901-WA0056.webp'
+import emergencyCase1 from './public/photos/WhatsApp Image 2026-03-02 at 17.08.14 (4).jpeg'
+import card1Img from './public/photos/WhatsApp Image 2026-03-02 at 17.06.58.jpeg'
+import card2Img from './public/services/IMG-20250901-WA0009.webp'
+import card4Img from './public/service-automotive.png'
+import card5Img from './public/services/IMG-20250901-WA0025.webp'
 import almoradi from './public/almoradi.webp'
 
-// Brand Logos
-import brand1 from './public/marcs/IMG-20250701-WA0001.webp'
-import brand2 from './public/marcs/IMG-20250701-WA0002.webp'
-import brand3 from './public/marcs/IMG-20250701-WA0003.webp'
-import brand4 from './public/marcs/IMG-20250701-WA0004.webp'
-import brand5 from './public/marcs/IMG-20250701-WA0005.webp'
-import brand6 from './public/marcs/IMG-20250701-WA0006.webp'
-import brand7 from './public/marcs/IMG-20250701-WA0007.webp'
-import brand8 from './public/marcs/IMG-20250701-WA0008.webp'
-import brand9 from './public/marcs/IMG-20250701-WA0009.webp'
-import brand10 from './public/marcs/IMG-20250701-WA0010.webp'
-import brand11 from './public/marcs/IMG-20250701-WA0011.webp'
-import brand12 from './public/marcs/IMG-20250701-WA0012.webp'
-import brand13 from './public/marcs/IMG-20250701-WA0013.webp'
-import brand14 from './public/marcs/IMG-20250701-WA0014.webp'
-import brand15 from './public/marcs/IMG-20250701-WA0015.webp'
-import brand16 from './public/marcs/IMG-20250701-WA0016.webp'
-import brand17 from './public/marcs/IMG-20250701-WA0017.webp'
-
-
-const ServiceMap = () => {
-    useEffect(() => {
-        const init = () => {
-            if (!window.L) {
-                setTimeout(init, 200);
-                return;
-            }
-            const container = document.getElementById('leaflet-map');
-            if (!container || container._leaflet_id) return;
-
-            const map = window.L.map('leaflet-map', {
-                center: [38.01, -0.80],
-                zoom: 11,
-                zoomControl: true,
-                scrollWheelZoom: true,
-                dragging: true,
-                touchZoom: true,
-                doubleClickZoom: true
-            });
-
-            window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; OpenStreetMap contributors'
-            }).addTo(map);
-
-            // Polygon based on Vega Baja / coastal areas
-            const region = [
-                [38.16, -0.87], // San Isidro
-                [38.15, -0.74], // Catral
-                [38.11, -0.66], // Guardamar
-                [37.99, -0.65], // Torrevieja
-                [37.91, -0.71], // La Zenia
-                [37.84, -0.77], // San Pedro del Pinatar
-                [37.86, -0.90], // Pilar de la Horadada
-                [37.92, -0.96], // San Miguel
-                [38.08, -0.97], // Orihuela
-                [38.15, -0.95], // Redovan
-            ];
-
-            window.L.polygon(region, {
-                color: '#ef4444',
-                fillColor: '#ef4444',
-                fillOpacity: 0.15,
-                weight: 3,
-                dashArray: '8, 8'
-            }).addTo(map);
-
-            // Pulse Marker
-            const officeIcon = window.L.divIcon({
-                html: `<div class="map-pulse-v2"></div>`,
-                className: 'custom-pulse-icon'
-            });
-            window.L.marker([37.9546, -0.7844], { icon: officeIcon }).addTo(map);
-
-            // Fix for rendering issues in containers
-            setTimeout(() => map.invalidateSize(), 500);
-        };
-        init();
-    }, []);
-
-    return <div id="leaflet-map" className="map-canvas-v2"></div>;
-};
+// Marquee Components
+const BrandsMarquee = lazy(() => import('./components/Marquees').then(m => ({ default: m.BrandsMarquee })))
+const CarsMarquee = lazy(() => import('./components/Marquees').then(m => ({ default: m.CarsMarquee })))
 
 function App() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [isScrolled, setIsScrolled] = useState(false);
-    const [selectedImg, setSelectedImg] = useState(null)
     const { t, i18n } = useTranslation();
     const companyLogo = logo;
-    const brandsList = [brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand8, brand9, brand10, brand11, brand12, brand13, brand14, brand15, brand16, brand17];
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
@@ -247,7 +170,13 @@ function App() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
                             >
-                                <span style={{ color: '#00a651', fontWeight: '800', fontSize: '1.2rem', display: 'block', marginBottom: '0.5rem' }}>{t('hero.subtitle_badge')}</span>
+                                <motion.span
+                                    animate={{ opacity: [1, 0.4, 1] }}
+                                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                                    style={{ color: '#00a651', fontWeight: '700', fontSize: '1.2rem', display: 'block', marginBottom: '0.5rem' }}
+                                >
+                                    {t('hero.subtitle_badge')}
+                                </motion.span>
                                 {t('hero.subtitle_text')}
                             </motion.p>
                         </div>
@@ -299,16 +228,80 @@ function App() {
                 </div>
             </header>
 
+            <section className="emergency-cases container">
+                <div className="section-head-v2">
+                    <span className="sub-tag">{t('hero.subtitle_badge')}</span>
+                    <h2>{t('emergency_cases.title')}</h2>
+                    <p>{t('emergency_cases.subtitle')}</p>
+                </div>
+
+                <div className="cases-grid">
+                    {/* Case 3 moved to first */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.1 }}
+                        className="case-card"
+                    >
+                        <div className="case-image">
+                            <img src={srv4} alt="New key programming" />
+                        </div>
+                        <div className="case-info">
+                            <h3>{t('emergency_cases.case3_title')}</h3>
+                            <p>{t('emergency_cases.case3_desc')}</p>
+                            <a href="https://wa.me/34613227826" className="case-link">{t('emergency_cases.btn')}</a>
+                        </div>
+                    </motion.div>
+
+                    {/* Case 2 stays in middle */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 }}
+                        className="case-card"
+                    >
+                        <div className="case-image">
+                            <img src={srv2} alt="Ignition repair" />
+                        </div>
+                        <div className="case-info">
+                            <h3>{t('emergency_cases.case2_title')}</h3>
+                            <p>{t('emergency_cases.case2_desc')}</p>
+                            <a href="https://wa.me/34613227826" className="case-link">{t('emergency_cases.btn')}</a>
+                        </div>
+                    </motion.div>
+
+                    {/* Case 1 moved to last */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.3 }}
+                        className="case-card"
+                    >
+                        <div className="case-image">
+                            <img src={emergencyCase1} alt="Car opening" />
+                        </div>
+                        <div className="case-info">
+                            <h3>{t('emergency_cases.case1_title')}</h3>
+                            <p>{t('emergency_cases.case1_desc')}</p>
+                            <a href="https://wa.me/34613227826" className="case-link">{t('emergency_cases.btn')}</a>
+                        </div>
+                    </motion.div>
+                </div>
+            </section>
+
             {/* New Section 1: About (Trusted Partner) */}
             <section id="sobre" className="about-split container">
                 <div className="about-image-main">
-                    <video src={videoMedia} autoPlay loop muted playsInline className="rounded-40" />
+                    <LazyVideo src={videoMedia} autoPlay loop muted playsInline className="rounded-40" />
                 </div>
                 <div className="about-content">
                     <span className="sub-tag">{t('about.tag')}</span>
                     <div className="about-title-flex">
                         <h2>{t('about.title')}</h2>
-                        <img src={modernKeys} alt="Detalle" className="about-side-img" />
+                        <img src={toolsDetail} alt="Detalle" className="about-side-img" />
                     </div>
                     <p className="about-subtitle">{t('about.subtitle')}</p>
                     <p>
@@ -321,64 +314,56 @@ function App() {
             </section>
 
             {/* Portfolio Section: Real Services Gallery */}
-            <section id="portfolio" className="portfolio-section">
-                <div className="container">
-                    <div className="portfolio-header">
-                        <span className="sub-tag">{t('portfolio.tag')}</span>
-                        <h2>{t('portfolio.title')}</h2>
-                        <p>{t('portfolio.desc')}</p>
-                    </div>
+            <Suspense fallback={<div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><div className="loader"></div></div>}>
+                <Portfolio />
+            </Suspense>
+
+            {/* Video Showcase Section */}
+            <section className="video-showcase-section dark-glow">
+                <div className="section-head-v2 light-text">
+                    <span className="sub-tag glow-green">{t('portfolio.video_tag')}</span>
+                    <h2 className="text-white">{t('portfolio.video_title')}</h2>
+                    <p className="text-gray-400">{t('portfolio.video_desc')}</p>
                 </div>
 
-                <div className="carousel-container overflow-hidden">
-                    <div className="carousel-slider">
-                        <div className="carousel-track-inner auto-scroll">
-                            {[...Array(2)].map((_, i) => (
-                                <React.Fragment key={i}>
-                                    {[srv1, srv2, srv3, srv4, srv5, srv6, srv7, srv8, srv9, srv10, srv11].map((img, index) => (
-                                        <div
-                                            key={`${i}-${index}`}
-                                            className="portfolio-card"
-                                            onClick={() => setSelectedImg(img)}
-                                        >
-                                            <img src={img} alt={`Serviço ${index + 1}`} loading="lazy" />
-                                            <div className="portfolio-overlay">
-                                                <div className="expand-btn">
-                                                    <CheckCircle2 size={24} color="#00a651" />
-                                                    <span>{t('portfolio.btn_view')}</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </React.Fragment>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                {/* Lightbox / Modal */}
-                <AnimatePresence>
-                    {selectedImg && (
+                <div className="video-grid-three">
+                    {[
+                        { vid: extraVideo1, title: t('portfolio.video_item1'), icon: <Key size={18} /> },
+                        { vid: videoGallery, title: t('portfolio.video_item2'), icon: <Home size={18} /> },
+                        { vid: extraVideo2, title: t('portfolio.video_item3'), icon: <Car size={18} /> }
+                    ].map((item, idx) => (
                         <motion.div
-                            className="img-modal-overlay"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            onClick={() => setSelectedImg(null)}
+                            key={idx}
+                            className="video-card-v2"
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ delay: idx * 0.1, duration: 0.6 }}
+                            viewport={{ once: true }}
                         >
-                            <motion.div
-                                className="img-modal-content"
-                                initial={{ scale: 0.8, opacity: 0 }}
-                                animate={{ scale: 1, opacity: 1 }}
-                                exit={{ scale: 0.8, opacity: 0 }}
-                                onClick={(e) => e.stopPropagation()}
-                            >
-                                <button className="modal-close" onClick={() => setSelectedImg(null)}><X size={32} /></button>
-                                <img src={selectedImg} alt="Serviço ampliado" />
-                            </motion.div>
+                            <LazyVideo
+                                src={item.vid}
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                className="showcase-vid"
+                            />
+                            <div className="video-overlay-v2">
+                                <div className="live-badge">
+                                    <div className="dot"></div>
+                                    <span>{t('portfolio.video_badge')}</span>
+                                </div>
+                                <div className="video-info-v2">
+                                    <div className="info-icon">{item.icon}</div>
+                                    <span>{item.title}</span>
+                                </div>
+                                <div className="video-play-hint">
+                                    <Video size={24} color="white" />
+                                </div>
+                            </div>
                         </motion.div>
-                    )}
-                </AnimatePresence>
+                    ))}
+                </div>
             </section>
 
             {/* New Section 2: Services Preview (Protecting Properties) - Dark Theme */}
@@ -396,9 +381,19 @@ function App() {
 
                     <div className="showcase-grid">
                         <div className="showcase-card">
-                            <div className="service-bg" style={{ backgroundImage: `url(${imgLocks})` }}></div>
+                            <div className="service-bg" style={{ backgroundImage: `url(${card4Img})` }}></div>
                             <div className="service-icon-box">
-                                <Lock size={40} />
+                                <Car size={40} />
+                            </div>
+                            <div className="card-overlay">
+                                <h3>{t('services.vehicle_locks_title')}</h3>
+                                <p>{t('services.vehicle_locks_desc')}</p>
+                            </div>
+                        </div>
+                        <div className="showcase-card">
+                            <div className="service-bg" style={{ backgroundImage: `url(${card1Img})` }}></div>
+                            <div className="service-icon-box">
+                                <Home size={40} />
                             </div>
                             <div className="card-overlay">
                                 <h3>{t('services.locks_title')}</h3>
@@ -406,19 +401,19 @@ function App() {
                             </div>
                         </div>
                         <div className="showcase-card">
-                            <div className="service-bg" style={{ backgroundImage: `url(${imgIntercom})` }}></div>
+                            <div className="service-bg" style={{ backgroundImage: `url(${card2Img})` }}></div>
                             <div className="service-icon-box">
-                                <Radio size={40} />
+                                <Key size={40} />
                             </div>
                             <div className="card-overlay">
-                                <h3>{t('services.intercom_title')}</h3>
-                                <p>{t('services.intercom_desc')}</p>
+                                <h3>{t('services.auto_title')}</h3>
+                                <p>{t('services.auto_desc')}</p>
                             </div>
                         </div>
                         <div className="showcase-card">
-                            <div className="service-bg" style={{ backgroundImage: `url(${imgKeys})` }}></div>
+                            <div className="service-bg" style={{ backgroundImage: `url(${srv3})` }}></div>
                             <div className="service-icon-box">
-                                <Key size={40} />
+                                <CheckCircle2 size={40} />
                             </div>
                             <div className="card-overlay">
                                 <h3>{t('services.keys_title')}</h3>
@@ -426,23 +421,13 @@ function App() {
                             </div>
                         </div>
                         <div className="showcase-card">
-                            <div className="service-bg" style={{ backgroundImage: `url(${imgCameras})` }}></div>
+                            <div className="service-bg" style={{ backgroundImage: `url(${card5Img})` }}></div>
                             <div className="service-icon-box">
-                                <Video size={40} />
+                                <Shield size={40} />
                             </div>
                             <div className="card-overlay">
-                                <h3>{t('services.cameras_title')}</h3>
-                                <p>{t('services.cameras_desc')}</p>
-                            </div>
-                        </div>
-                        <div className="showcase-card">
-                            <div className="service-bg" style={{ backgroundImage: `url(${imgAutomotive})` }}></div>
-                            <div className="service-icon-box">
-                                <Car size={40} />
-                            </div>
-                            <div className="card-overlay">
-                                <h3>{t('services.auto_title')}</h3>
-                                <p>{t('services.auto_desc')}</p>
+                                <h3>{t('services.emergency_title')}</h3>
+                                <p>{t('services.emergency_desc')}</p>
                             </div>
                         </div>
                         <div className="showcase-card">
@@ -451,8 +436,8 @@ function App() {
                                 <Clock size={40} />
                             </div>
                             <div className="card-overlay">
-                                <h3>{t('services.emergency_title')}</h3>
-                                <p>{t('services.emergency_desc')}</p>
+                                <h3>{t('services.access_title')}</h3>
+                                <p>{t('services.access_desc')}</p>
                             </div>
                         </div>
                     </div>
@@ -471,7 +456,15 @@ function App() {
                     {/* Column 1 */}
                     <div className="why-col" style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                         <div className="feature-card-overlap">
-                            <img src={carKeyFob} alt="Detalhe fechadura" />
+                            <LazyVideo
+                                src={extraVideo4}
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                className="overlap-vid"
+                                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '40px' }}
+                            />
                             <div className="overlap-content">
                                 <h3>{t('why_choose.col1_title')}</h3>
                                 <p>{t('why_choose.col1_desc')}</p>
@@ -479,14 +472,14 @@ function App() {
                         </div>
                         <div className="how-title-v2" style={{ marginTop: 'auto', paddingBottom: '2rem' }}>
                             <span className="sub-tag" style={{ textTransform: 'uppercase', letterSpacing: '1px' }}>{t('why_choose.how_tag')}</span>
-                            <h2 style={{ fontSize: '2.5rem', lineHeight: '1.1', color: '#0c0c0c', marginBottom: 0 }} dangerouslySetInnerHTML={{ __html: t('why_choose.how_title') }}></h2>
+                            <h2 style={{ fontSize: '3.2rem', lineHeight: '1.1', color: '#0c0c0c', marginBottom: 0 }} dangerouslySetInnerHTML={{ __html: t('why_choose.how_title') }}></h2>
                         </div>
                     </div>
 
                     {/* Column 2 */}
                     <div className="why-col">
-                        <video
-                            src={videoMedia}
+                        <LazyVideo
+                            src={extraVideo3}
                             autoPlay
                             loop
                             muted
@@ -500,7 +493,7 @@ function App() {
                         <div className="feature-card-feature">
                             <span className="big-percent">{t('why_choose.col3_percent')}</span>
                             <p>{t('why_choose.col3_desc')}</p>
-                            <img src={locksmithToolsMacro} alt="Profissional chaveiro" className="card-inner-img" />
+                            <img src={whyChooseFixing} alt="Profissional chaveiro" className="card-inner-img" />
                             <a href="tel:+34613227826" className="btn-vibe-green">{t('why_choose.btn_call')}</a>
                         </div>
                     </div>
@@ -604,7 +597,7 @@ function App() {
                     </a>
                 </div>
                 <div className="cta-banner-img">
-                    <img src={ctaBg} alt="Security Check" />
+                    <img src={srv5} alt="Lock Inspection" />
                 </div>
             </section>
 
@@ -694,7 +687,9 @@ function App() {
 
                         <div className="map-wrapper">
                             <div className="map-container">
-                                <ServiceMap />
+                                <Suspense fallback={<div className="map-canvas-v2" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f0f0f0' }}>Carregando mapa...</div>}>
+                                    <ServiceMap />
+                                </Suspense>
                             </div>
                         </div>
                     </motion.div>
@@ -702,25 +697,15 @@ function App() {
             </section>
 
             {/* Brands Marquee Section */}
-            <section id="marcas" className="brands-marquee-section">
-                <div className="container">
-                    <div className="section-center-header" style={{ marginBottom: '3rem' }}>
-                        <span className="sub-tag">{t('brands_section.tag')}</span>
-                        <h2>{t('brands_section.title')}</h2>
-                        <p>{t('brands_section.desc')}</p>
-                    </div>
-                </div>
+            <Suspense fallback={<div style={{ height: '100px' }}></div>}>
+                <BrandsMarquee t={t} />
+            </Suspense>
 
-                <div className="marquee-container">
-                    <div className="marquee-track">
-                        {[...brandsList, ...brandsList].map((brand, index) => (
-                            <div key={index} className="brand-logo-item">
-                                <img src={brand} alt={`Brand ${index}`} />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+            {/* Cars Marquee Section */}
+            <Suspense fallback={<div style={{ height: '100px' }}></div>}>
+                <CarsMarquee t={t} />
+            </Suspense>
+
 
 
             <footer className="footer-dark">

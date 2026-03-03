@@ -15,44 +15,62 @@
         "zones": "Service Areas"
     },
     "hero": {
-        "title1": "LOCKSMITHS IN MURCIA AND",
-        "title2": "VEGA BAJA (ALICANTE)",
+        "title1": "CODED KEYS AND",
+        "title2": "AUTOMOTIVE LOCKSMITHS",
         "subtitle_badge": "24/7 EMERGENCY",
-        "subtitle_text": "Specialists in residential and automotive locksmith services. Immediate door and vehicle unlocking across the region.",
+        "subtitle_text": "Specialists in car key copies, coded keys, and remotes. Vehicle unlocking and residential services with fast response across the region.",
         "card_status": "24/7 Service",
         "card_role": "Specialist available",
         "call_now": "Call Now",
-        "write_us": "Message Us"
+        "write_Us": "Message Us"
+    },
+    "emergency_cases": {
+        "title": "What's happened with your vehicle or property?",
+        "subtitle": "Specialized technical assistance ready to depart now. Choose your case:",
+        "case1_title": "Locked Out?",
+        "case1_desc": "Damage-free technical opening. Minutes to resolve keys left inside or locked doors.",
+        "case2_title": "Key Stuck or Won't Turn?",
+        "case2_desc": "Ignition barrel and cylinder repair on-site. Don't force the key; we fix it without unnecessary part replacements.",
+        "case3_title": "Lost All Your Keys?",
+        "case3_desc": "We make new keys from scratch on-site (Lost Key Cases). Complete programming to get you back on the road.",
+        "btn": "Request Assistance Now"
     },
     "about": {
         "tag": "About Us",
-        "title": "Locksmith Solution – Professional Locksmith Services",
-        "subtitle": "Your lock services in expert hands.",
-        "p1": "At Locksmith Solution, we offer fast, reliable, and professional locksmith services for homes, businesses, and vehicles. We have highly trained locksmiths, state-of-the-art tools, and modern lock service solutions to provide peace of mind and protection at all times.",
-        "p2": "We specialize in residential, commercial, and automotive locksmith services, ensuring efficient and safe work with lasting results. Whether it's an emergency or a lock service project, we are ready to help you with immediate and professional service."
+        "title": "Experts in Automotive and Residential Locks and Keys",
+        "subtitle": "State-of-the-art technology for your vehicle and your home.",
+        "p1": "At Locksmith Solution, we solve your car key and house lock problems in one place. We combine advanced coding technology with the best locksmith solutions on the market.",
+        "p2": "Equipped with electronic cutting machines and next-gen diagnostic software, we solve 99% of problems on-site, saving you time and money."
     },
     "portfolio": {
         "tag": "Our Work",
+        "video_tag": "Real Time Action",
         "title": "Completed Projects",
         "desc": "Check out some of the recent services provided by our team throughout the province.",
-        "btn_view": "View Details"
+        "btn_view": "View Details",
+        "video_title": "Precision in Every Detail",
+        "video_desc": "Real services, immediate solutions. Watch how our team handles emergencies throughout the region.",
+        "video_item1": "Programming",
+        "video_item2": "Residential",
+        "video_item3": "Specialized",
+        "video_badge": "REAL CASE"
     },
     "services": {
-        "tag": "Our Services",
-        "title": "NEED A QUALIFIED PROFESSIONAL?",
-        "desc": "We specialize in unlocking house doors and cars. We make key copies for all car brands. Our mobile team is equipped to handle 24/7 emergencies throughout the Murcia and Cartagena region.",
-        "locks_title": "LOCK REPLACEMENT",
-        "locks_desc": "If you need to change the locks of your home or vehicle, we have a wide variety of options to guarantee excellent lock services for your spaces.",
-        "intercom_title": "INTERCOM INSTALLATION",
-        "intercom_desc": "We offer professional installation of intercoms and video door entry systems for homes, condominiums, and businesses.",
-        "keys_title": "KEY DUPLICATION",
-        "keys_desc": "We make key copies guaranteed for precision and functionality, ensuring reliable replacements.",
-        "cameras_title": "CAMERA INSTALLATION",
-        "cameras_desc": "Camera installation with real-time monitoring from your phone, tablet, or computer.",
-        "auto_title": "AUTOMOTIVE LOCKSMITH",
-        "auto_desc": "Specializing in automotive services, we offer fast solutions for lockouts or lost keys.",
-        "emergency_title": "24/7 EMERGENCY",
-        "emergency_desc": "Our locksmith team is available 24 hours a day, 7 days a week to solve your problems!"
+        "tag": "Specialties",
+        "title": "LOCKSMITH SPECIALIST",
+        "desc": "Professional solutions for all types of locks and electronic key systems.",
+        "locks_title": "RESIDENTIAL LOCKS",
+        "locks_desc": "Installation and repair of high-tech cylinders, anti-bumping codes, and locks for homes and flats.",
+        "auto_title": "CODED KEYS",
+        "auto_desc": "Complete programming of smart keys, remotes, and Keyless systems for all vehicle brands.",
+        "keys_title": "PRECISION COPIES",
+        "keys_desc": "Duplication of residential and automotive keys with electronic machines ensuring 100% functionality.",
+        "vehicle_locks_title": "VEHICLE LOCKS",
+        "vehicle_locks_desc": "Repair and replacement of door locks, ignition barrels, and trunks. Specialists in vehicle mechanics.",
+        "emergency_title": "TECHNICAL UNLOCKING",
+        "emergency_desc": "Damage-free opening of vehicles and residential doors. Professional techniques for 24/7 emergencies.",
+        "access_title": "24/7 RESPONSE",
+        "access_desc": "Mobile units on standby across the region to solve any locksmith emergency in record time, day or night."
     },
     "why_choose": {
         "tag": "Why Choose Us",
@@ -61,7 +79,7 @@
         "col1_title": "Premium Quality",
         "col1_desc": "We offer the best service with the best value.",
         "how_tag": "HOW IT WORKS",
-        "how_title": "Caring for Your Home <br/> As if it were Ours",
+        "how_title": "Caring for what is yours <br/> as if it were ours",
         "col3_percent": "100%",
         "col3_desc": "Of our clients recommend our services for home protection.",
         "btn_call": "Call Now"
@@ -85,7 +103,7 @@
     },
     "cta": {
         "tag": "Book Your Service Today",
-        "title": "Your Security and Peace of Mind <br /> Come First"
+        "title": "Lock Repairs and <br /> Key Coding Services"
     },
     "areas": {
         "tag": "Total Coverage",
@@ -100,7 +118,11 @@
     "brands_section": {
         "tag": "Trust in Every Key",
         "title": "Brands We Work With",
-        "desc": "We work with all major locksmith and automotive brands."
+        "desc": "We work with the most reputable lock and key brands."
+    },
+    "cars_section": {
+        "tag": "Automotive Locksmith",
+        "title": "Experts in All Car Brands"
     },
     "footer": {
         "desc": "We proudly serve property owners using durable, high-quality materials and expert craftsmanship for lasting protection and peace of mind.",

@@ -15,44 +15,62 @@
         "zones": "Áreas de Cobertura"
     },
     "hero": {
-        "title1": "CHAVEIROS EM MURCIA E",
-        "title2": "VEGA BAJA (ALICANTE)",
-        "subtitle_badge": "URGÊNCIAS 24 HORAS",
-        "subtitle_text": "Especialistas em fechaduras residenciais e serviços automotivos. Abertura de portas e veículos com atendimento imediato em toda a região.",
+        "title1": "CHAVES CODIFICADAS E",
+        "title2": "CHAVEIRO AUTOMOTIVO",
+        "subtitle_badge": "EMERGÊNCIA 24 HORAS",
+        "subtitle_text": "Especialistas em cópias de chaves veiculares, chaves codificadas e telecomandos. Abertura de veículos e serviços residenciais com atendimento rápido em toda a região.",
         "card_status": "Atendimento 24h",
         "card_role": "Especialista disponível",
         "call_now": "Ligar Agora",
         "write_us": "Fale Conosco"
     },
+    "emergency_cases": {
+        "title": "O que aconteceu com seu veículo ou imóvel?",
+        "subtitle": "Assistência técnica especializada pronta para sair agora. Escolha o seu caso:",
+        "case1_title": "Ficou para fora?",
+        "case1_desc": "Abertura técnica sem danos. Resolvemos em minutos casos de chaves esquecidas no interior ou porta travada.",
+        "case2_title": "Chave Presa ou Não Gira?",
+        "case2_desc": "Reparação de canhão de ignição e cilindros no local. Não force a chave, nós resolvemos sem trocar peças desnecessárias.",
+        "case3_title": "Perdeu a Única Chave?",
+        "case3_desc": "Confeccionamos chaves novas do zero no local (Lost Key Cases). Programação completa para que você volte a rodar.",
+        "btn": "Solicitar Assistência Agora"
+    },
     "about": {
         "tag": "Quem Somos",
-        "title": "Locksmith Solution – Serviços Profissionais de Chaveiro",
-        "subtitle": "Suas fechaduras em mãos experientes.",
-        "p1": "Na Locksmith Solution, oferecemos serviços rápidos, confiáveis e profissionais para residências, empresas e veículos. Contamos com chaveiros capacitados, ferramentas de última geração e soluções modernas para proporcionar tranquilidade e proteção a todo momento.",
-        "p2": "Somos especialistas em serviços residenciais, comerciais e automotivos, garantindo um trabalho eficiente, seguro e duradouro. Seja uma emergência ou um projeto de segurança, estamos prontos para ajudar com atendimento imediato."
+        "title": "Especialistas em Chaves e Fechaduras Automotivas e Residenciais",
+        "subtitle": "Tecnologia de ponta para o seu veículo e para o seu lar.",
+        "p1": "Na Locksmith Solution, resolvemos seus problemas com chaves de carro e fechaduras de casa em um só lugar. Unimos tecnologia avançada de codificação com as melhores soluções de chaveiro do mercado.",
+        "p2": "Equipados com máquinas de corte eletrônico e softwares de diagnóstico de última geração, resolvemos 99% dos problemas no local, economizando seu tempo e dinheiro."
     },
     "portfolio": {
         "tag": "Nossos Trabalhos",
+        "video_tag": "Atendimentos Reais",
         "title": "Serviços Realizados",
         "desc": "Confira alguns dos atendimentos recentes realizados pela nossa equipe em toda a província.",
-        "btn_view": "Ver Detalhes"
+        "btn_view": "Ver Detalhes",
+        "video_title": "Precisão em Cada Detalhe",
+        "video_desc": "Atendimentos reais, soluções imediatas. Veja como nossa equipe resolve emergências em toda a região.",
+        "video_item1": "Programação",
+        "video_item2": "Residencial",
+        "video_item3": "Especializado",
+        "video_badge": "TRABALHO REAL"
     },
     "services": {
-        "tag": "Nossos Serviços",
-        "title": "PRECISA DE UM PROFISSIONAL QUALIFICADO?",
-        "desc": "Especialistas em abertura de portas de casas e carros. Cópias de chaves para todas as marcas de veículos. Equipe móvel preparada para emergências 24h em toda a região de Murcia e Cartagena.",
-        "locks_title": "TROCA DE FECHADURAS",
-        "locks_desc": "Ampla variedade de opções para substituição de fechaduras de casas ou veículos com total segurança.",
-        "intercom_title": "INSTALAÇÃO DE INTERFONES",
-        "intercom_desc": "Instalação profissional de interfones e videoporteiros para residências, condomínios e empresas.",
-        "keys_title": "CÓPIA DE CHAVES",
-        "keys_desc": "Cópia de chaves com garantia de precisão e funcionalidade, assegurando substitutos confiáveis.",
-        "cameras_title": "INSTALAÇÃO DE CÂMERAS",
-        "cameras_desc": "Sistemas de câmeras com monitoramento em tempo real direto do seu celular, tablet ou computador.",
-        "auto_title": "CHAVEIRO AUTOMOTIVO",
-        "auto_desc": "Soluções rápidas e especializadas para chaves presas no veículo, perdidas ou danificadas.",
-        "emergency_title": "EMERGÊNCIA 24 HORAS",
-        "emergency_desc": "Nossa equipe está disponível 24 horas por dia, 7 dias por semana para resolver seu problema!"
+        "tag": "Especialidades",
+        "title": "CHAVEIRO ESPECIALISTA",
+        "desc": "Soluções profissionais para todos os tipos de fechaduras e sistemas de chaves eletrônicas.",
+        "locks_title": "FECHADURAS RESIDENCIAIS",
+        "locks_desc": "Instalação e reparo de cilindros de alta tecnologia, anti-bumping e fechaduras para casas e apartamentos.",
+        "auto_title": "CHAVES CODIFICADAS",
+        "auto_desc": "Programação completa de chaves inteligentes, telecomandos e Smart Keys para todas as marcas de veículos.",
+        "keys_title": "CÓPIAS DE PRECISÃO",
+        "keys_desc": "Duplicação de chaves residenciais e automotivas com máquinas eletrônicas que garantem 100% de funcionamento.",
+        "vehicle_locks_title": "FECHADURAS VEICULARES",
+        "vehicle_locks_desc": "Reparação e substituição de canhões de porta, ignição e malas. Especialistas em mecânica veicular.",
+        "emergency_title": "ABERTURA TÉCNICA",
+        "emergency_desc": "Abertura de veículos e portas residenciais sem danos. Técnicas profissionais para emergências 24h.",
+        "access_title": "ATENDIMENTO 24H",
+        "access_desc": "Unidades móveis de prontidão em toda a região para resolver qualquer emergência de cerrajería em tempo recorde, dia ou noite."
     },
     "why_choose": {
         "tag": "Por que nos escolher",
@@ -61,7 +79,7 @@
         "col1_title": "Qualidade Premium",
         "col1_desc": "Oferecemos o melhor serviço com a melhor relação custo-benefício.",
         "how_tag": "COMO FUNCIONA",
-        "how_title": "Cuidando do Seu Lar <br/> Como Se Fosse Nosso",
+        "how_title": "Cuidando do que é seu <br/> como se fosse nosso",
         "col3_percent": "100%",
         "col3_desc": "De nossos clientes recomendam nossos serviços para a proteção de suas casas.",
         "btn_call": "Ligar Agora"
@@ -70,7 +88,7 @@
         "step1_title": "Agende Seu Serviço",
         "step1_desc": "Do agendamento à conclusão, garantimos uma experiência sem estresse.",
         "step2_title": "Avaliação Gratuita",
-        "step2_desc": "Sua segurança é nossa prioridade. Solicite um orçamento sem compromisso.",
+        "step2_desc": "Sua tranquilidade é nossa prioridade. Solicite um orçamento sem compromisso.",
         "step3_title": "Equipe em Ação",
         "step3_desc": "Profissionais equipados para entregar serviço de excelência em tempo recorde."
     },
@@ -85,7 +103,7 @@
     },
     "cta": {
         "tag": "Reserve Seu Atendimento",
-        "title": "Sua Segurança e Tranquilidade <br /> em Primeiro Lugar"
+        "title": "Fechaduras e <br /> Codificação de Chaves"
     },
     "areas": {
         "tag": "Cobertura Total",
@@ -100,7 +118,11 @@
     "brands_section": {
         "tag": "Confiança em Cada Chave",
         "title": "Marcas que Trabalhamos",
-        "desc": "Trabalhamos com as marcas mais conceituadas de fechaduras e sistemas de segurança."
+        "desc": "Trabalhamos com as marcas mais conceituadas de fechaduras e chaves."
+    },
+    "cars_section": {
+        "tag": "Chaveiro Automotivo",
+        "title": "Especialistas em Todas as Marcas"
     },
     "footer": {
         "desc": "Atendemos com orgulho utilizando materiais duráveis de alta qualidade para proteção e tranquilidade a longo prazo.",
