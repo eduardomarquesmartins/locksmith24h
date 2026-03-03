@@ -1680,7 +1680,7 @@ h4 {
 .footer-dark {
     background: #0c0c0c;
     color: white;
-    padding: 80px 0 0 0;
+    padding: 40px 0 0 0;
 }
 
 .footer-grid-dark {
@@ -2617,7 +2617,7 @@ h4 {
 .brands-marquee-section.cars-row {
     background: #0c0c0c !important;
     padding-top: 0 !important;
-    padding-bottom: 100px !important;
+    padding-bottom: 20px !important;
 }
 
 .brands-marquee-section.cars-row .section-center-header {
