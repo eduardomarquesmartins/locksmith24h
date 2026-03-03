@@ -136,7 +136,7 @@ function App() {
                                 <img src="https://flagcdn.com/w40/ru.png" alt="Русский" className="flag-icon" />
                             </button>
                         </div>
-                        <a href="https://wa.me/34602659054" className="btn-primary desktop-only" target="_blank" rel="noopener noreferrer">{t('nav.contact')}</a>
+                        <a href="#contacto" className="btn-primary desktop-only">{t('nav.contact')}</a>
                         <button className="mobile-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                             {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
                         </button>
@@ -157,6 +157,7 @@ function App() {
                         <a href="#portfolio" onClick={() => setIsMenuOpen(false)}>{t('mobileMenu.portfolio')}</a>
                         <a href="#marcas" onClick={() => setIsMenuOpen(false)}>{t('mobileMenu.brands')}</a>
                         <a href="#zonas" onClick={() => setIsMenuOpen(false)}>{t('mobileMenu.zones')}</a>
+                        <a href="#contacto" className="btn-primary" style={{ marginTop: '1rem', textAlign: 'center' }} onClick={() => setIsMenuOpen(false)}>{t('nav.contact')}</a>
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -761,7 +762,7 @@ function App() {
                                 <a href="https://www.instagram.com/locksmith24h/" target="_blank" rel="noopener noreferrer"><Instagram size={18} /> Instagram</a>
                                 <a href="https://wa.me/34602659054" target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18} /> WhatsApp</a>
                             </div>
-                            <div className="footer-col contact-col">
+                            <div className="footer-col contact-col" id="contacto">
                                 <h4>{t('footer.contact')}</h4>
                                 <p><Phone size={18} /> +34 602 659 054</p>
                                 <p><Mail size={18} /> locksmith.orihuela@gmail.com</p>
