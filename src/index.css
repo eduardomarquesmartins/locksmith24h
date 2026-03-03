@@ -2295,7 +2295,7 @@ h4 {
 }
 
 .carousel-container {
-    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    /* mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); */
     padding: 2rem 0;
     position: relative;
 }
