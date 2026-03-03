@@ -2082,8 +2082,12 @@ h4 {
     }
 
     .footer-menus {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .contact-col {
+        grid-column: span 2;
     }
 
     .whatsapp-fab {
@@ -3336,4 +3340,20 @@ h4 {
 
 .cookie-detail-item.interactive:hover .read-more {
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .footer-menus {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.5rem !important;
+    }
+
+    .social-links {
+        padding-left: 1rem;
+    }
+
+    .contact-col {
+        grid-column: span 2 !important;
+        margin-top: 1rem;
+    }
 }
