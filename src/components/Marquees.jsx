@@ -1,8 +1,8 @@
 import React, { lazy, Suspense } from 'react';
 
 // Dynamic import for all brand and car logos
-const brandLogos = import.meta.glob('../public/marcs/*.{png,jpg,jpeg,webp}', { eager: true });
-const carLogos = import.meta.glob('../public/cars/*.{png,jpg,jpeg,webp}', { eager: true });
+const brandLogos = import.meta.glob('../assets/images/brands/*.webp', { eager: true });
+const carLogos = import.meta.glob('../assets/images/cars/*.webp', { eager: true });
 
 const brandsList = Object.values(brandLogos).map(mod => mod.default);
 const carsList = Object.values(carLogos).map(mod => mod.default);

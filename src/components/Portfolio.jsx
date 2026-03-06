@@ -10,21 +10,13 @@ const Portfolio = () => {
 
     useEffect(() => {
         // Dynamic import for all service and work photos (lazy loading)
-        const photoModules = import.meta.glob('../public/photos/*.{png,jpg,jpeg,webp}');
-        const serviceModules = import.meta.glob('../public/services/*.{png,jpg,jpeg,webp}');
+        const photoModules = import.meta.glob('../assets/images/gallery/*.webp');
 
         const loadPhotos = async () => {
             const photoPromises = Object.values(photoModules).map(importFn => importFn());
-            const servicePromises = Object.values(serviceModules).map(importFn => importFn());
-
             const photoResults = await Promise.all(photoPromises);
-            const serviceResults = await Promise.all(servicePromises);
 
-            const loadedPhotos = [
-                ...photoResults.map(mod => mod.default),
-                ...serviceResults.map(mod => mod.default)
-            ];
-
+            const loadedPhotos = photoResults.map(mod => mod.default);
             setAllGalleryPhotos(loadedPhotos);
         };
 
