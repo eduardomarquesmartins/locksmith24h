@@ -12,14 +12,10 @@ const LazyVideo = ({ src, className, style, ...props }) => {
                     observer.disconnect();
                 }
             },
-<<<<<<< HEAD
             {
                 threshold: 0.01,
                 rootMargin: '400px 0px'  // Start loading 400px BEFORE it enters the viewport
             }
-=======
-            { threshold: 0.1 }
->>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
         );
 
         if (videoRef.current) {
@@ -39,10 +35,7 @@ const LazyVideo = ({ src, className, style, ...props }) => {
             src={isVisible ? src : undefined}
             className={className}
             style={style}
-<<<<<<< HEAD
             preload={isVisible ? "auto" : "none"}
-=======
->>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
             {...props}
         />
     );

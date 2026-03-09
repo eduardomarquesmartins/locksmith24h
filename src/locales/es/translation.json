@@ -110,7 +110,6 @@
         "title": "Regiones que Atendemos",
         "desc": "Prestamos servicio inmediato de cerrajería en toda la provincia."
     },
-<<<<<<< HEAD
     "city_page": {
         "title": "Cerrajero en {{city}} | Urgente | Desde 60 euros",
         "hero_tag": "Urgente",
@@ -151,8 +150,6 @@
         "internal_link1": "Para una cobertura completa, confía en nuestro <0>servicio de cerrajería en la ciudad de {{city}}</0>.",
         "internal_link2": "Para más información sobre nuestros servicios de cerrajería, visite nuestra <0>página principal </0>."
     },
-=======
->>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
     "location": {
         "tag": "Ubicación",
         "title": "¿Dónde encontrarnos?",
