@@ -1,0 +1,194 @@
+{
+    "nav": {
+        "about": "About",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "brands": "Brands",
+        "zones": "Areas",
+        "contact": "CONTACT"
+    },
+    "mobileMenu": {
+        "about": "About us",
+        "services": "Our services",
+        "portfolio": "Our work",
+        "brands": "Brands",
+        "zones": "Service Areas"
+    },
+    "hero": {
+        "title1": "CODED KEYS AND",
+        "title2": "AUTOMOTIVE LOCKSMITHS",
+        "subtitle_badge": "24/7 EMERGENCY",
+        "subtitle_text": "Specialists in car key copies, coded keys, and remotes. Vehicle unlocking and residential services with fast response across the region.",
+        "card_status": "24/7 Service",
+        "card_role": "Specialist available",
+        "call_now": "Call Now",
+        "write_Us": "Message Us"
+    },
+    "emergency_cases": {
+        "title": "What's happened with your vehicle or property?",
+        "subtitle": "Specialized technical assistance ready to depart now. Choose your case:",
+        "case1_title": "Locked Out?",
+        "case1_desc": "Damage-free technical opening. Minutes to resolve keys left inside or locked doors.",
+        "case2_title": "Key Stuck or Won't Turn?",
+        "case2_desc": "Ignition barrel and cylinder repair on-site. Don't force the key; we fix it without unnecessary part replacements.",
+        "case3_title": "Lost All Your Keys?",
+        "case3_desc": "We make new keys from scratch on-site (Lost Key Cases). Complete programming to get you back on the road.",
+        "btn": "Request Assistance Now"
+    },
+    "about": {
+        "tag": "About Us",
+        "title": "Experts in Automotive and Residential Locks and Keys",
+        "subtitle": "State-of-the-art technology for your vehicle and your home.",
+        "p1": "At Locksmith Solutions, we solve your car key and house lock problems in one place. We combine advanced coding technology with the best locksmith solutions on the market.",
+        "p2": "Equipped with electronic cutting machines and next-gen diagnostic software, we solve 99% of problems on-site, saving you time and money."
+    },
+    "portfolio": {
+        "tag": "Our Work",
+        "video_tag": "Real Time Action",
+        "title": "Completed Projects",
+        "desc": "Check out some of the recent services provided by our team throughout the province.",
+        "btn_view": "View Details",
+        "video_title": "Precision in Every Detail",
+        "video_desc": "Real services, immediate solutions. Watch how our team handles emergencies throughout the region.",
+        "video_item1": "Programming",
+        "video_item2": "Residential",
+        "video_item3": "Specialized",
+        "video_badge": "REAL CASE"
+    },
+    "services": {
+        "tag": "Specialties",
+        "title": "LOCKSMITH SPECIALIST",
+        "desc": "Professional solutions for all types of locks and electronic key systems.",
+        "locks_title": "RESIDENTIAL LOCKS",
+        "locks_desc": "Installation and repair of high-tech cylinders, anti-bumping codes, and locks for homes and flats.",
+        "auto_title": "CODED KEYS",
+        "auto_desc": "Complete programming of smart keys, remotes, and Keyless systems for all vehicle brands.",
+        "keys_title": "PRECISION COPIES",
+        "keys_desc": "Duplication of residential and automotive keys with electronic machines ensuring 100% functionality.",
+        "vehicle_locks_title": "VEHICLE LOCKS",
+        "vehicle_locks_desc": "Repair and replacement of door locks, ignition barrels, and trunks. Specialists in vehicle mechanics.",
+        "emergency_title": "TECHNICAL UNLOCKING",
+        "emergency_desc": "Damage-free opening of vehicles and residential doors. Professional techniques for 24/7 emergencies.",
+        "access_title": "24/7 RESPONSE",
+        "access_desc": "Mobile units on standby across the region to solve any locksmith emergency in record time, day or night."
+    },
+    "why_choose": {
+        "tag": "Why Choose Us",
+        "title": "Reliable Service, Built to Last",
+        "desc": "Locksmith Solutions delivers expert solutions that protect your property. We combine local knowledge and quality materials for every project.",
+        "col1_title": "Premium Quality",
+        "col1_desc": "We offer the best service with the best value.",
+        "how_tag": "HOW IT WORKS",
+        "how_title": "Caring for what is yours <br/> as if it were ours",
+        "col3_percent": "100%",
+        "col3_desc": "Of our clients recommend our services for home protection.",
+        "btn_call": "Call Now"
+    },
+    "steps": {
+        "step1_title": "Schedule Your Service",
+        "step1_desc": "From scheduling to completion, we guarantee a stress-free experience.",
+        "step2_title": "Free Evaluation",
+        "step2_desc": "Your lock services are our priority. Request a no-obligation quote.",
+        "step3_title": "Our Team at Work",
+        "step3_desc": "Equipped team ready to deliver quality service in record time."
+    },
+    "testimonials": {
+        "tag": "Client Feedback",
+        "title": "REAL REVIEWS",
+        "desc": "See how we make a difference in real time.",
+        "client": "Verified Client",
+        "t1_text": "COMPETENT STAFF, QUALITY SERVICES",
+        "t2_text": "They arrive quickly and provide excellent service.",
+        "t3_text": "They fixed my lock, which I thought was beyond repair."
+    },
+    "cta": {
+        "tag": "Book Your Service Today",
+        "title": "Lock Repairs and <br /> Key Coding Services"
+    },
+    "areas": {
+        "tag": "Total Coverage",
+        "title": "Service Areas",
+        "desc": "We provide immediate locksmith services throughout the province."
+    },
+    "location": {
+        "tag": "Location",
+        "title": "Where to find us?",
+        "address_title": "Head Office:"
+    },
+    "brands_section": {
+        "tag": "Trust in Every Key",
+        "title": "Brands We Work With",
+        "desc": "We work with the most reputable lock and key brands."
+    },
+    "cars_section": {
+        "tag": "Automotive Locksmith",
+        "title": "Experts in All Car Brands"
+    },
+    "footer": {
+        "desc": "We proudly serve property owners using durable, high-quality materials and expert craftsmanship for lasting protection and peace of mind.",
+        "company": "Company",
+        "nav_home": "Home",
+        "nav_about": "About Us",
+        "nav_services": "Services",
+        "nav_portfolio": "Our Work",
+        "nav_zones": "Service Areas",
+        "social": "Social Media",
+        "contact": "Contact",
+        "aviso": "LEGAL NOTICE",
+        "privacidad": "PRIVACY POLICY",
+        "cookies": "COOKIE POLICY",
+        "rights": "© 2026 Locksmith Solutions. All rights reserved."
+    },
+    "cookies": {
+        "title": "Cookie Settings",
+        "desc": "We use cookies to improve your experience and analyze traffic. You can accept all or decline non-essential.",
+        "accept": "Accept All",
+        "decline": "Essential Only",
+        "settings": "View details",
+        "hide_settings": "Hide details",
+        "tech_title": "LEGAL NOTICE",
+        "tech_desc": "Information about website ownership and legal terms of use.",
+        "analysis_title": "PRIVACY POLICY",
+        "analysis_desc": "Details on how we protect and process your personal data.",
+        "marketing_title": "COOKIE POLICY",
+        "marketing_desc": "Detailed information on cookie usage and management.",
+        "read_more": "Read more"
+    },
+    "city_page": {
+        "title": "Locksmith in {{city}} | Urgent | From 60 euros",
+        "hero_tag": "Urgent",
+        "call_btn": "Call Us Now",
+        "wa_btn": "WhatsApp",
+        "why_us": "Advantages of our Service",
+        "arrival": "Immediate arrival",
+        "price": "From 60€",
+        "no_damage": "No damage",
+        "warranty": "Full warranty",
+        "intro_title": "Locksmith in {{city}}",
+        "intro_text": "When a lock fails at the most inopportune moment, whether at home, your business, or when you are locked out of your vehicle, the feeling of vulnerability is immediate. Imagine: it is midnight in {{city}}, your security door won't close, or you left the keys inside the car. That feeling of helplessness is real and requires an immediate solution. In such situations, every minute counts, and relying on a trustworthy locksmith service in {{city}} for fast residential and automotive response is essential.",
+        "advantages_title": "Advantages of our 24-Hour Locksmith Service in {{city}}",
+        "advantages_text": "Sureste Cerrajeros offers a 24/7 service in {{city}}, available 365 days a year for your home, business, or car. The peace of mind knowing that an expert locksmith is always at your disposal is invaluable.",
+        "how_works_title": "How does our emergency locksmith service in {{city}} work?",
+        "how_works_text": "Call Sureste Cerrajeros in {{city}}. Describe your situation accurately. Our team will locate the nearest technician to your location. Consequently, a qualified locksmith will arrive at your home, business, or vehicle's location as quickly as possible.",
+        "solutions_tag": "Solutions",
+        "solutions_title": "Our Urgent Locksmith Solutions",
+        "solutions_desc": "We are prepared to resolve any unforeseen event with maximum speed and professionalism:",
+        "sol1": "Damage-free door opening",
+        "sol1_desc": "We access your home or business respecting the integrity of your door.",
+        "sol2": "Cylinder or complete lock change",
+        "sol2_desc": "If you have suffered a robbery or lost your keys, we secure your property instantly.",
+        "sol3": "Repair of forced locks",
+        "sol3_desc": "We evaluate the damage and repair or replace components to restore your security.",
+        "sol4": "Safe opening",
+        "sol4_desc": "Advanced techniques to regain access without damaging its contents.",
+        "sol5": "Urgent Auto Locksmith",
+        "sol5_desc": "Damage-free vehicle opening, lost key recovery, and resolving lockouts for all car brands.",
+        "special_title": "Specialized Attention in {{city}}",
+        "special_desc": "Specialists in damage-free door and vehicle openings, Sureste Cerrajeros in {{city}} quickly resolves emergency situations like forced, jammed locks, or car lockouts.",
+        "faq_title": "Frequently Asked Questions about Emergencies",
+        "faq_q1": "How long will it take for a Sureste Cerrajeros locksmith to arrive in {{city}} after my call?",
+        "faq_a1": "Our goal is to arrive as soon as possible. After your call, our team locates the nearest locksmith in {{city}}.",
+        "internal_link1": "For full coverage, trust our <0>locksmith service in the city of {{city}}</0>.",
+        "internal_link2": "For more information about our locksmith services, visit our <0>main page</0>."
+    }
+}

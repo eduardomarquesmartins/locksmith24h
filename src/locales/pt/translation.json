@@ -1,0 +1,197 @@
+{
+    "nav": {
+        "about": "Sobre",
+        "services": "Serviços",
+        "portfolio": "Trabalhos",
+        "brands": "Marcas",
+        "zones": "Áreas",
+        "contact": "CONTATO"
+    },
+    "mobileMenu": {
+        "about": "Quem Somos",
+        "services": "Nossos Serviços",
+        "portfolio": "Trabalhos",
+        "brands": "Marcas",
+        "zones": "Áreas de Cobertura"
+    },
+    "hero": {
+        "title1": "CHAVES CODIFICADAS E",
+        "title2": "CHAVEIRO AUTOMOTIVO",
+        "subtitle_badge": "EMERGÊNCIA 24 HORAS",
+        "subtitle_text": "Especialistas em cópias de chaves veiculares, chaves codificadas e telecomandos. Abertura de veículos e serviços residenciais com atendimento rápido em toda a região.",
+        "card_status": "Atendimento 24h",
+        "card_role": "Especialista disponível",
+        "call_now": "Ligar Agora",
+        "write_us": "Fale Conosco"
+    },
+    "emergency_cases": {
+        "title": "O que aconteceu com seu veículo ou imóvel?",
+        "subtitle": "Assistência técnica especializada pronta para sair agora. Escolha o seu caso:",
+        "case1_title": "Ficou para fora?",
+        "case1_desc": "Abertura técnica sem danos. Resolvemos em minutos casos de chaves esquecidas no interior ou porta travada.",
+        "case2_title": "Chave Presa ou Não Gira?",
+        "case2_desc": "Reparação de canhão de ignição e cilindros no local. Não force a chave, nós resolvemos sem trocar peças desnecessárias.",
+        "case3_title": "Perdeu a Única Chave?",
+        "case3_desc": "Confeccionamos chaves novas do zero no local (Lost Key Cases). Programação completa para que você volte a rodar.",
+        "btn": "Solicitar Assistência Agora"
+    },
+    "about": {
+        "tag": "Quem Somos",
+        "title": "Especialistas em Chaves e Fechaduras Automotivas e Residenciais",
+        "subtitle": "Tecnologia de ponta para o seu veículo e para o seu lar.",
+        "p1": "Na Locksmith Solutions, resolvemos seus problemas com chaves de carro e fechaduras de casa em um só lugar. Unimos tecnologia avançada de codificação com as melhores soluções de chaveiro do mercado.",
+        "p2": "Equipados com máquinas de corte eletrônico e softwares de diagnóstico de última geração, resolvemos 99% dos problemas no local, economizando seu tempo e dinheiro."
+    },
+    "portfolio": {
+        "tag": "Nossos Trabalhos",
+        "video_tag": "Atendimentos Reais",
+        "title": "Serviços Realizados",
+        "desc": "Confira alguns dos atendimentos recentes realizados pela nossa equipe em toda a província.",
+        "btn_view": "Ver Detalhes",
+        "video_title": "Precisão em Cada Detalhe",
+        "video_desc": "Atendimentos reais, soluções imediatas. Veja como nossa equipe resolve emergências em toda a região.",
+        "video_item1": "Programação",
+        "video_item2": "Residencial",
+        "video_item3": "Especializado",
+        "video_badge": "TRABALHO REAL"
+    },
+    "services": {
+        "tag": "Especialidades",
+        "title": "CHAVEIRO ESPECIALISTA",
+        "desc": "Soluções profissionais para todos os tipos de fechaduras e sistemas de chaves eletrônicas.",
+        "locks_title": "FECHADURAS RESIDENCIAIS",
+        "locks_desc": "Instalação e reparo de cilindros de alta tecnologia, anti-bumping e fechaduras para casas e apartamentos.",
+        "auto_title": "CHAVES CODIFICADAS",
+        "auto_desc": "Programação completa de chaves inteligentes, telecomandos e Smart Keys para todas as marcas de veículos.",
+        "keys_title": "CÓPIAS DE PRECISÃO",
+        "keys_desc": "Duplicação de chaves residenciais e automotivas com máquinas eletrônicas que garantem 100% de funcionamento.",
+        "vehicle_locks_title": "FECHADURAS VEICULARES",
+        "vehicle_locks_desc": "Reparação e substituição de canhões de porta, ignição e malas. Especialistas em mecânica veicular.",
+        "emergency_title": "ABERTURA TÉCNICA",
+        "emergency_desc": "Abertura de veículos e portas residenciais sem danos. Técnicas profissionais para emergências 24h.",
+        "access_title": "ATENDIMENTO 24H",
+        "access_desc": "Unidades móveis de prontidão em toda a região para resolver qualquer emergência de cerrajería em tempo recorde, dia ou noite."
+    },
+    "why_choose": {
+        "tag": "Por que nos escolher",
+        "title": "Serviço Confiável, Feito para Durar",
+        "desc": "Entrega de soluções especializadas para proteger seu patrimônio. Combinamos experiência local e materiais de alta qualidade.",
+        "col1_title": "Qualidade Premium",
+        "col1_desc": "Oferecemos o melhor serviço com a melhor relação custo-benefício.",
+        "how_tag": "COMO FUNCIONA",
+        "how_title": "Cuidando do que é seu <br/> como se fosse nosso",
+        "col3_percent": "100%",
+        "col3_desc": "De nossos clientes recomendam nossos serviços para a proteção de suas casas.",
+        "btn_call": "Ligar Agora"
+    },
+    "steps": {
+        "step1_title": "Agende Seu Serviço",
+        "step1_desc": "Do agendamento à conclusão, garantimos uma experiência sem estresse.",
+        "step2_title": "Avaliação Gratuita",
+        "step2_desc": "Sua tranquilidade é nossa prioridade. Solicite um orçamento sem compromisso.",
+        "step3_title": "Equipe em Ação",
+        "step3_desc": "Profissionais equipados para entregar serviço de excelência em tempo recorde."
+    },
+    "testimonials": {
+        "tag": "Opinião dos Clientes",
+        "title": "AVALIAÇÕES REAIS",
+        "desc": "Veja o impacto do nosso trabalho no dia a dia.",
+        "client": "Cliente Verificado",
+        "t1_text": "EQUIPE COMPETENTE E SERVIÇO DE ALTA QUALIDADE",
+        "t2_text": "Chegaram muito rápido e prestaram um atendimento excelente.",
+        "t3_text": "Consertaram uma fechadura que eu já achava não ter recuperação."
+    },
+    "cta": {
+        "tag": "Reserve Seu Atendimento",
+        "title": "Fechaduras e <br /> Codificação de Chaves"
+    },
+    "areas": {
+        "tag": "Cobertura Total",
+        "title": "Regiões que Atendemos",
+        "desc": "Atendimento rápido de chaveiro em toda a extensão da província."
+    },
+    "city_page": {
+        "title": "Chaveiro em {{city}} | Urgente | A partir de 60 euros",
+        "hero_tag": "Serviço 24 Horas",
+        "call_btn": "Ligue-nos Agora",
+        "wa_btn": "WhatsApp",
+        "why_us": "Por que nós?",
+        "arrival": "Chegada em menos de 20 min",
+        "price": "Preços a partir de 60€",
+        "no_damage": "Abertura sem danos",
+        "warranty": "Garantia por escrito",
+        "intro_title": "Chaveiro em {{city}}",
+        "intro_text": "Quando uma fechadura falha no momento mais inoportuno, seja na sua casa, no seu comércio ou quando fica trancado fora do seu veículo, a sensação de vulnerabilidade é imediata. Entendemos a urgência da situação e resolvemos o problema rapidamente com eficiência em residências e automóveis.",
+        "advantages_title": "Vantagens do nosso Serviço de Chaveiro 24h em {{city}}",
+        "advantages_text": "A Sureste Cerrajeros oferece um serviço 24 horas em {{city}}, disponível os 365 dias do ano para sua propriedade ou carro. A tranquilidade de saber que você tem um especialista sempre à sua disposição, não tem preço.",
+        "how_works_title": "Como funciona o nosso serviço de urgência em {{city}}?",
+        "how_works_text": "Ligue para a Sureste Cerrajeros em {{city}}. Descreva a sua situação. Nossa equipe enviará imediatamente o técnico mais próximo de você para resolver o seu problema no domicílio, comércio ou na estrada.",
+        "solutions_tag": "Soluções",
+        "solutions_title": "Nossas Soluções de Chaveiro Urgente",
+        "solutions_desc": "Estamos prontos para resolver qualquer imprevisto com a máxima agilidade e profissionalismo:",
+        "sol1": "Abertura de portas sem danos",
+        "sol1_desc": "Acedemos à sua residência ou negócio respeitando a integridade da sua porta.",
+        "sol2": "Troca de canhão ou fechadura",
+        "sol2_desc": "Se sofreu um roubo ou perdeu as chaves, asseguramos a sua propriedade instantaneamente.",
+        "sol3": "Reparação de fechaduras",
+        "sol3_desc": "Avaliamos o dano e reparamos ou substituímos os componentes para devolver a segurança.",
+        "sol4": "Abertura de cofres",
+        "sol4_desc": "Técnicas avançadas para recuperar o acesso sem danificar o conteúdo.",
+        "sol5": "Chaveiro Automotivo Urgente",
+        "sol5_desc": "Abertura de veículos sem danos, recuperação de chaves perdidas e resolução de bloqueios em todas as marcas.",
+        "neighborhoods_tag": "Cobertura Local",
+        "neighborhoods_title": "Bairros e Zonas Atendidas em {{city}}",
+        "neighborhoods_desc": "Oferecemos serviço de chaveiro urgente em todos os distritos e freguesias de {{city}}. Chegamos a qualquer ponto em tempo recorde:",
+        "special_title": "Atendimento Especializado em {{city}}",
+        "special_desc": "Especialistas em abertura de portas retidas em residências e destrancamento de veículos em {{city}}, mesmo que a chave esteja no interior. Trabalhamos com precisão e rapidez.",
+        "faq_title": "Perguntas Frequentes sobre Urgências",
+        "faq_q1": "O que acontece se eu precisar de uma troca de canhão urgente após uma tentativa de assalto em {{city}}?",
+        "faq_a1": "Entendemos que após um roubo, a sua prioridade é a segurança. Por isso, a Sureste Cerrajeros irá imediatamente a {{city}} para realizar a troca. O processo é rápido e eficaz.",
+        "internal_link1": "Para uma cobertura completa, confie no nosso <0>serviço de chaveiro na cidade de {{city}}</0>.",
+        "internal_link2": "Para mais informações, visite a nossa <0>página principal</0>."
+    },
+    "location": {
+        "tag": "Localização",
+        "title": "Onde nos encontrar?",
+        "address_title": "Escritório Principal:"
+    },
+    "brands_section": {
+        "tag": "Confiança em Cada Chave",
+        "title": "Marcas que Trabalhamos",
+        "desc": "Trabalhamos com as marcas mais conceituadas de fechaduras e chaves."
+    },
+    "cars_section": {
+        "tag": "Chaveiro Automotivo",
+        "title": "Especialistas em Todas as Marcas"
+    },
+    "footer": {
+        "desc": "Atendemos com orgulho utilizando materiais duráveis de alta qualidade para proteção e tranquilidade a longo prazo.",
+        "company": "Empresa",
+        "nav_home": "Início",
+        "nav_about": "Sobre Nós",
+        "nav_services": "Serviços",
+        "nav_portfolio": "Nossos Trabalhos",
+        "nav_zones": "Áreas de Atendimento",
+        "social": "Redes Sociais",
+        "contact": "Contato",
+        "aviso": "AVISO LEGAL",
+        "privacidad": "POLÍTICA DE PRIVACIDADE",
+        "cookies": "POLÍTICA DE COOKIES",
+        "rights": "© 2026 Locksmith Solutions. Todos os direitos reservados."
+    },
+    "cookies": {
+        "title": "Configuração de Cookies",
+        "desc": "Utilizamos cookies para melhorar a sua experiência e analisar o tráfego. Pode aceitar todos ou recusar os não essenciais.",
+        "accept": "Aceitar Todos",
+        "decline": "Apenas Essenciais",
+        "settings": "Ver detalhes",
+        "hide_settings": "Ocultar detalhes",
+        "tech_title": "AVISO LEGAL",
+        "tech_desc": "Informações sobre a titularidade do site e condições legais de uso.",
+        "analysis_title": "POLÍTICA DE PRIVACIDADE",
+        "analysis_desc": "Detalhes sobre como protegemos e tratamos os seus dados pessoais.",
+        "marketing_title": "POLÍTICA DE COOKIES",
+        "marketing_desc": "Informações detalhadas sobre o uso de cookies e como geri-los.",
+        "read_more": "Ler mais"
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "nav": {
+        "about": "À propos",
+        "services": "Services",
+        "portfolio": "Travaux",
+        "brands": "Marques",
+        "zones": "Zones",
+        "contact": "CONTACT"
+    },
+    "mobileMenu": {
+        "about": "À propos de nous",
+        "services": "Nos services",
+        "portfolio": "Travaux réalisés",
+        "brands": "Marques",
+        "zones": "Zones"
+    },
+    "hero": {
+        "title1": "CLÉS CODIFIÉES ET",
+        "title2": "SERRURERIE AUTOMOBILE",
+        "subtitle_badge": "URGENCES 24 HEURES",
+        "subtitle_text": "Spécialistes des copies de clés de voiture, clés codifiées et télécommandes. Ouverture de véhicules et services résidentiels avec intervention rapide dans toute la région.",
+        "card_status": "Service 24h/24",
+        "card_role": "Spécialiste disponible",
+        "call_now": "Appeler Maintenant",
+        "write_us": "Écrivez-nous"
+    },
+    "emergency_cases": {
+        "title": "Qu'est-il arrivé à votre véhicule ou logement ?",
+        "subtitle": "Assistance technique spécialisée prête à partir maintenant. Choisissez votre cas :",
+        "case1_title": "Vous êtes dehors ?",
+        "case1_desc": "Ouverture technique sans dommage. Nous résolvons en quelques minutes les cas de clés oubliées à l'intérieur ou de portes bloquées.",
+        "case2_title": "Clé Coincée ou ne Tourne pas ?",
+        "case2_desc": "Réparation de neiman et cylindres sur place. Ne forcez pas la clé, nous trouvons la solution sans changer de pièces inutilement.",
+        "case3_title": "Vous avez Perdu votre Unique Clé ?",
+        "case3_desc": "Nous fabriquons de nouvelles clés à partir de zéro sur place (Lost Key Cases). Programmation complète pour vous permettre de reprendre la route.",
+        "btn": "Demander une Assistance Maintenant"
+    },
+    "about": {
+        "tag": "Qui Sommes-Nous",
+        "title": "Spécialistes des Clés et Serrures Automobiles et Résidentielles",
+        "subtitle": "Technologie de pointe pour votre véhicule et votre foyer.",
+        "p1": "Chez Locksmith Solutions, nous résolvons vos problèmes de clés de voiture et de serrures de maison en un seul endroit. Nous combinons une technologie de codage avancée avec les meilleures solutions de serrurerie du marché.",
+        "p2": "Équipés de machines de découpe électronique et de logiciels de diagnostic de dernière génération, nous résolvons 99% des problèmes sur place, vous faisant gagner du temps et de l'argent."
+    },
+    "portfolio": {
+        "tag": "Nos Travaux",
+        "video_tag": "Cas Réels",
+        "title": "Services Réalisés",
+        "desc": "Découvrez quelques-unes des interventions récentes réalisées par notre équipe dans toute la province.",
+        "btn_view": "Voir en Détail",
+        "video_title": "La Précision dans Chaque Détail",
+        "video_desc": "Interventions réelles, solutions immédiates. Voyez comment notre équipe résout les urgences dans toute la région.",
+        "video_item1": "Programmation",
+        "video_item2": "Résidentiel",
+        "video_item3": "Spécialisé",
+        "video_badge": "TRAVAIL RÉEL"
+    },
+    "services": {
+        "tag": "Spécialités",
+        "title": "SERRURIER SPÉCIALISTE",
+        "desc": "Solutions professionnelles pour tous types de serrures et systèmes de clés électroniques.",
+        "locks_title": "SERRURES RÉSIDENTIELLES",
+        "locks_desc": "Installation et réparation de cylindres de haute technologie, anti-bumping et serrures pour maisons et appartements.",
+        "auto_title": "CLÉS CODIFIÉES",
+        "auto_desc": "Programmation complète de clés intelligentes, télécommandes et Smart Keys pour toutes les marques de véhicules.",
+        "keys_title": "COPIES DE PRÉCISION",
+        "keys_desc": "Duplication de clés résidentielles et automobiles avec des machines électroniques garantissant un fonctionnement à 100%.",
+        "vehicle_locks_title": "SERRURES DE VÉHICULES",
+        "vehicle_locks_desc": "Réparation et remplacement de barillets de porte, contact et coffres. Spécialistes en mécanique de véhicule.",
+        "emergency_title": "OUVERTURE TECHNIQUE",
+        "emergency_desc": "Ouverture de véhicules et de portes résidentielles sans dommage. Techniques professionnelles pour les urgences 24h/24.",
+        "access_title": "INTERVENTION 24H/24",
+        "access_desc": "Unités mobiles prêtes dans toute la région pour résoudre toute urgence de serrurerie en un temps record, jour et nuit."
+    },
+    "why_choose": {
+        "tag": "Pourquoi nous choisir",
+        "title": "Service Fiable, Fait pour Durer",
+        "desc": "Locksmith Solutions propose des solutions spécialisées qui protègent votre propriété. Nous combinons savoir-faire local et matériaux de qualité pour chaque projet.",
+        "col1_title": "Qualité Premium",
+        "col1_desc": "Nous offrons le meilleur service, avec le meilleur rapport qualité-prix.",
+        "how_tag": "COMMENT ÇA MARCHE",
+        "how_title": "Prendre soin de ce qui est à vous <br/> comme si c'était à nous",
+        "col3_percent": "100%",
+        "col3_desc": "De nos clients recommandent nos services pour la protection de leur logement.",
+        "btn_call": "Appeler Maintenant"
+    },
+    "steps": {
+        "step1_title": "Planifiez votre Service",
+        "step1_desc": "De la planification à la réalisation, nous garantissons une expérience sans stress.",
+        "step2_title": "Évaluation Gratuite",
+        "step2_desc": "La sécurité de vos serrures est notre priorité. Demandez un devis sans engagement.",
+        "step3_title": "Notre Équipe en Action",
+        "step3_desc": "Une équipe prête à fournir un service de qualité en un temps record."
+    },
+    "testimonials": {
+        "tag": "Avis des Clients",
+        "title": "RETOURS RÉELS",
+        "desc": "Voyez comment nous faisons la différence en temps réel.",
+        "client": "Client Vérifié",
+        "t1_text": "PERSONNEL COMPÉTENT SERVICES DE QUALITÉ",
+        "t2_text": "Ils arrivent rapidement et offrent un excellent service.",
+        "t3_text": "Ils ont réparé ma serrure que je pensais irréparable."
+    },
+    "cta": {
+        "tag": "Réservez Votre Service Aujourd'hui",
+        "title": "Serrures et <br /> Codage de Clés"
+    },
+    "areas": {
+        "tag": "Couverture Totale",
+        "title": "Régions que Nous Desservons",
+        "desc": "Nous assurons un service de serrurerie immédiat dans toute la province."
+    },
+    "city_page": {
+        "title": "Serrurier à {{city}} | Urgent | Dès 60 euros",
+        "hero_tag": "Urgent",
+        "call_btn": "Appelez-nous Maintenant",
+        "wa_btn": "WhatsApp",
+        "why_us": "Avantages de notre Service",
+        "arrival": "Arrivée immédiate",
+        "price": "Dès 60€",
+        "no_damage": "Sans dommages",
+        "warranty": "Garantie totale",
+        "intro_title": "Serrurier à {{city}}",
+        "intro_text": "Lorsqu'une serrure tombe en panne au moment le plus inopportun, que ce soit à votre domicile, dans votre entreprise ou lorsque vous êtes bloqué hors de votre véhicule, le sentiment de vulnérabilité est immédiat. Ce sentiment d'impuissance est réel et nécessite une solution immédiate tant résidentielle qu'automobile.",
+        "advantages_title": "Avantages de notre Service de Serrurier 24h à {{city}}",
+        "advantages_text": "Sureste Serrures propose un service 24/7 à {{city}}, disponible 365 jours par an pour votre maison, entreprise ou voiture. La tranquillité d'esprit de savoir qu'il y a toujours un serrurier expert à votre disposition est inestimable.",
+        "how_works_title": "Comment fonctionne notre Service de Serrurier à {{city}} ?",
+        "how_works_text": "Appelez Sureste Serrures à {{city}}. Décrivez votre situation avec précision. Notre équipe localisera le technicien le plus proche. Par conséquent, un serrurier qualifié arrivera à l'emplacement de votre domicile ou véhicule dans les plus brefs délais.",
+        "solutions_tag": "Solutions",
+        "solutions_title": "Nos Solutions de Serrurerie Urgente",
+        "solutions_desc": "Nous sommes prêts à résoudre tout imprévu avec un maximum de rapidité et de professionnalisme :",
+        "sol1": "Ouverture de portes sans dommages",
+        "sol1_desc": "Nous accédons à votre domicile ou votre entreprise en respectant l'intégrité de votre porte.",
+        "sol2": "Changement de cylindre ou de serrure complète",
+        "sol2_desc": "Si vous avez subi un vol ou perdu vos clés, nous sécurisons votre propriété instantanément.",
+        "sol3": "Réparation de serrures forcées",
+        "sol3_desc": "Nous évaluons les dommages et réparons ou remplaçons les composants pour rétablir la sécurité.",
+        "sol4": "Ouverture de coffres-forts",
+        "sol4_desc": "Techniques avancées pour récupérer l'accès sans endommager le contenu.",
+        "sol5": "Serrurier Automobile Urgent",
+        "sol5_desc": "Ouverture de véhicules sans dommages, récupération de clés perdues et déverrouillage pour toutes les marques.",
+        "special_title": "Attention Spécialisée à {{city}}",
+        "special_desc": "Spécialistes de l'ouverture de portes et véhicules sans causer de dommages, Sureste Serrures à {{city}} résout rapidement les urgences comme les serrures bloquées ou verrouillages de voiture.",
+        "faq_title": "Questions Fréquemment Posées",
+        "faq_q1": "Combien de temps mettrez-vous pour arriver à {{city}} ?",
+        "faq_a1": "Notre objectif est d'arriver le plus rapidement possible. Après votre appel, notre équipe localise le serrurier le plus proche à {{city}}.",
+        "internal_link1": "Pour une couverture complète, faites confiance à notre <0>service de serrurerie dans la ville de {{city}}</0>.",
+        "internal_link2": "Pour plus d'informations, visitez notre <0>page d'accueil</0>."
+    },
+    "location": {
+        "tag": "Emplacement",
+        "title": "Où nous trouver ?",
+        "address_title": "Siège social :"
+    },
+    "brands_section": {
+        "tag": "Confiance dans Chaque Clé",
+        "title": "Marques avec lesquelles Nous Travaillons",
+        "desc": "Nous travaillons avec les marques de serrures et de clés les plus reconnues."
+    },
+    "cars_section": {
+        "tag": "Serrurerie Automobile",
+        "title": "Spécialistes de Toutes les Marques"
+    },
+    "footer": {
+        "desc": "Nous servons les propriétaires avec fierté en utilisant des matériaux durables et de haute qualité pour une protection à long terme et une tranquillité d'esprit.",
+        "company": "Entreprise",
+        "nav_home": "Accueil",
+        "nav_about": "À Propos",
+        "nav_services": "Services",
+        "nav_portfolio": "Travaux",
+        "nav_zones": "Zones",
+        "social": "Réseaux Sociaux",
+        "contact": "Contact",
+        "aviso": "MENTIONS LÉGALES",
+        "privacidad": "POLITIQUE DE CONFIDENTIALITÉ",
+        "cookies": "POLITIQUE DE COOKIES",
+        "rights": "© 2026 Locksmith Solutions. Tous droits réservés."
+    },
+    "cookies": {
+        "title": "Paramètres des Cookies",
+        "desc": "Nous utilisons des cookies pour améliorer votre expérience et analyser le trafic. Vous pouvez tout accepter ou refuser les cookies non essentiels.",
+        "accept": "Tout Accepter",
+        "decline": "Essentiels Uniquement",
+        "settings": "Voir les détails",
+        "hide_settings": "Masquer les détails",
+        "tech_title": "MENTIONS LÉGALES",
+        "tech_desc": "Informations sur la propriété du site et les conditions légales d'utilisation.",
+        "analysis_title": "POLITIQUE DE CONFIDENTIALITÉ",
+        "analysis_desc": "Détails sur la manière dont nous protégeons et traitons vos données personnelles.",
+        "marketing_title": "POLITIQUE DE COOKIES",
+        "marketing_desc": "Informations détaillées sur l'utilisation des cookies et comment les gérer.",
+        "read_more": "Lire plus"
+    }
+}

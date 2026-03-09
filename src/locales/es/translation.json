@@ -1,0 +1,197 @@
+{
+    "nav": {
+        "about": "Sobre",
+        "services": "Servicios",
+        "portfolio": "Trabajos",
+        "brands": "Marcas",
+        "zones": "Zonas",
+        "contact": "CONTACTO"
+    },
+    "mobileMenu": {
+        "about": "Sobre nosotros",
+        "services": "Nuestros servicios",
+        "portfolio": "Trabajos realizados",
+        "brands": "Marcas",
+        "zones": "Zonas"
+    },
+    "hero": {
+        "title1": "LLAVES CODIFICADAS Y",
+        "title2": "CERRAJERÍA DE AUTOMOCIÓN",
+        "subtitle_badge": "URGENCIAS 24 HORAS",
+        "subtitle_text": "Especialistas en copias de llaves de coche, llaves codificadas y mandos. Apertura de vehículos y servicios residenciales con atención rápida en toda la región.",
+        "card_status": "Atendimento 24h",
+        "card_role": "Especialista disponible",
+        "call_now": "Llamar Ahora",
+        "write_us": "Escríbenos"
+    },
+    "emergency_cases": {
+        "title": "¿Qué ha pasado con su vehículo o vivienda?",
+        "subtitle": "Asistencia técnica especializada lista para salir ahora. Elige tu caso:",
+        "case1_title": "¿Se ha quedado fuera?",
+        "case1_desc": "Apertura técnica sin daños. Resolvemos en minutos casos de llaves olvidadas dentro o puertas bloqueadas.",
+        "case2_title": "¿Llave Atascada o No Gira?",
+        "case2_desc": "Reparación de bombín de contacto y cilindros in situ. No fuerce la llave, lo solucionamos sin cambiar piezas innecesarias.",
+        "case3_title": "¿Perdió su Única Llave?",
+        "case3_desc": "Hacemos llaves nuevas desde cero allí mismo (Lost Key Cases). Programación completa para que pueda volver a circular.",
+        "btn": "Solicitar Asistencia Ahora"
+    },
+    "about": {
+        "tag": "Quiénes Somos",
+        "title": "Especialistas en Llaves y Cerraduras Automotrices y Residenciales",
+        "subtitle": "Tecnología de vanguardia para su vehículo y su hogar.",
+        "p1": "En Locksmith Solutions, resolvemos sus problemas con llaves de coche y cerraduras de casa en un solo lugar. Combinamos tecnología avanzada de codificación con las mejores soluciones de cerrajería del mercado.",
+        "p2": "Equipados con máquinas de corte electrónico y software de diagnóstico de última generación, resolvemos el 99% de los problemas en el lugar, ahorrándole tiempo y dinero."
+    },
+    "portfolio": {
+        "tag": "Nuestros Trabajos",
+        "video_tag": "Casos Reales",
+        "title": "Servicios Realizados",
+        "desc": "Conozca algunos de los servicios recientes realizados por nuestro equipo en toda la provincia.",
+        "btn_view": "Ver en Detalle",
+        "video_title": "Precisión en Cada Detalle",
+        "video_desc": "Atenciones reales, soluciones inmediatas. Vea cómo nuestro equipo resuelve emergencias en toda la región.",
+        "video_item1": "Programación",
+        "video_item2": "Residencial",
+        "video_item3": "Especializado",
+        "video_badge": "TRABAJO REAL"
+    },
+    "services": {
+        "tag": "Especialidades",
+        "title": "CERRAJERO ESPECIALISTA",
+        "desc": "Soluciones profesionales para todo tipo de cerraduras y sistemas de llaves electrónicas.",
+        "locks_title": "CERRADURAS RESIDENCIALES",
+        "locks_desc": "Instalación y reparación de cilindros de alta tecnología, antibumping y cerraduras para casas y apartamentos.",
+        "auto_title": "LLAVES CODIFICADAS",
+        "auto_desc": "Programación completa de llaves inteligentes, mandos a distancia y Smart Keys para todas las marcas de vehículos.",
+        "keys_title": "COPIAS DE PRECISIÓN",
+        "keys_desc": "Duplicación de llaves residenciales y automotrices con máquinas electrónicas que garantizan el 100% de funcionamento.",
+        "vehicle_locks_title": "CERRADURAS VEHICULARES",
+        "vehicle_locks_desc": "Reparación y sustitución de bombines de puerta, contacto y maleteros. Especialistas en mecánica vehicular.",
+        "emergency_title": "APERTURA TÉCNICA",
+        "emergency_desc": "Apertura de vehículos y puertas residenciales sin daños. Técnicas profissionais para emergencias 24h.",
+        "access_title": "ATENCIÓN 24H",
+        "access_desc": "Unidades móviles listas en toda la región para resolver cualquier emergencia de cerrajería en tiempo récord, día o noche."
+    },
+    "why_choose": {
+        "tag": "Por qué elegirnos",
+        "title": "Servicio Confiable, Hecho para Durar",
+        "desc": "Locksmith Solutions ofrece soluciones especializadas que protegen su propiedad. Combinamos conocimiento local y materiales de calidad para cada proyecto.",
+        "col1_title": "Calidad Premium",
+        "col1_desc": "Ofrecemos el mejor servicio, con la mejor relación calidad-precio.",
+        "how_tag": "CÓMO FUNCIONA",
+        "how_title": "Cuidando de lo que es suyo <br/> como si fuera nuestro",
+        "col3_percent": "100%",
+        "col3_desc": "De nuestros clientes recomiendan nuestros servicios para la protección de viviendas.",
+        "btn_call": "Llamar Ahora"
+    },
+    "steps": {
+        "step1_title": "Programe su Servicio",
+        "step1_desc": "Desde la programación hasta la finalización, garantizamos una experiencia sin estrés.",
+        "step2_title": "Evaluación Gratuita",
+        "step2_desc": "Sus servicios de cerradura son nuestra prioridad. Solicite un presupuesto sin compromiso.",
+        "step3_title": "Nuestro Equipo Trabajando",
+        "step3_desc": "Equipo preparado para entregar un servicio de calidad en un tiempo récord."
+    },
+    "testimonials": {
+        "tag": "Opiniones de los Clientes",
+        "title": "FEEDBACKS REALES",
+        "desc": "Vea cómo marcamos la diferencia en tiempo real.",
+        "client": "Cliente Verificado",
+        "t1_text": "PERSONAL COMPETENTE SERVICIOS DE CALIDAD",
+        "t2_text": "Llegan rápido y brindan un excelente servicio.",
+        "t3_text": "Arreglaron mi cerradura, la cual pensé que no tenía reparación."
+    },
+    "cta": {
+        "tag": "Reserve Su Servicio Hoy",
+        "title": "Cerraduras y <br /> Codificación de Llaves"
+    },
+    "areas": {
+        "tag": "Cobertura Total",
+        "title": "Regiones que Atendemos",
+        "desc": "Prestamos servicio inmediato de cerrajería en toda la provincia."
+    },
+    "city_page": {
+        "title": "Cerrajero en {{city}} | Urgente | Desde 60 euros",
+        "hero_tag": "Urgente",
+        "call_btn": "Llámanos Ahora",
+        "wa_btn": "WhatsApp",
+        "why_us": "Ventajas de nuestro Servicio",
+        "arrival": "Llegada inmediata",
+        "price": "Desde 60€",
+        "no_damage": "Sin daños",
+        "warranty": "Garantía total",
+        "intro_title": "Cerrajero en {{city}}",
+        "intro_text": "Cuando una cerradura falla en el momento más inoportuno, ya sea en la puerta de su hogar, en su negocio o al quedarse sin acceso a su vehículo, la sensación de vulnerabilidad es inmediata. Imaginemos: es medianoche en {{city}}, la puerta de seguridad no cierra o ha dejado las llaves dentro del coche. Esa sensación de indefensión es real y necesita una solución inmediata. En una situación así, cada minuto cuenta y contar con un Servicio de cerrajero de confianza en {{city}} que garantice una respuesta inmediata, tanto residencial como de automoción, es fundamental para recuperar la normalidad.",
+        "advantages_title": "Ventajas de nuestro Servicio de cerrajero en {{city}} 24 Horas",
+        "advantages_text": "Sureste Cerrajeros ofrece un servicio 24/7 en {{city}}, disponible los 365 días del año para su vivienda, local o automóvil. La tranquilidad de saber que siempre hay un cerrajero experto a su disposición es invaluable.",
+        "how_works_title": "¿Cómo funciona nuestro Servicio de cerrajero en {{city}} para urgencias?",
+        "how_works_text": "Llame a Sureste Cerrajeros en {{city}}. Describa su situación con precisión. Nuestro equipo ubicará al técnico más cercano a su ubicación. En consecuencia, un cerrajero cualificado llegará a su domicilio, negocio o al lugar donde se encuentre su vehículo en el menor tiempo posible.",
+        "solutions_tag": "Soluciones",
+        "solutions_title": "Nuestras Soluciones de Cerrajería Urgente",
+        "solutions_desc": "Estamos preparados para resolver cualquier imprevisto con la máxima celeridad y profesionalidad:",
+        "sol1": "Apertura de puertas sin daños",
+        "sol1_desc": "Accedemos a tu vivienda o negocio respetando la integridad de tu puerta.",
+        "sol2": "Cambio de bombín o cerradura completa",
+        "sol2_desc": "Si has sufrido un robo o has perdido las llaves, aseguramos tu propiedad al instante.",
+        "sol3": "Reparación de cerraduras forzadas",
+        "sol3_desc": "Evaluamos el daño y reparamos o sustituimos los componentes para devolver la seguridad a tu acceso.",
+        "sol4": "Apertura de cajas fuertes",
+        "sol4_desc": "Técnicas avanzadas para recuperar el acceso sin dañar su contenido.",
+        "sol5": "Cerrajería de Automoción Urgente",
+        "sol5_desc": "Apertura de vehículos sin daños, recuperación de llaves perdidas y resolución de bloqueos en todas las marcas.",
+        "neighborhoods_tag": "Cobertura Local",
+        "neighborhoods_title": "Barrios y Zonas Atendidas en {{city}}",
+        "neighborhoods_desc": "Ofrecemos servicio de cerrajería urgente en todos los distritos y pedanías de {{city}}. Llegamos a cualquier punto en tiempo récord:",
+        "special_title": "Atención Especializada en {{city}}",
+        "special_desc": "Especialistas en aperturas de puertas y vehículos sin causar daños, Sureste Cerrajeros en {{city}} resuelve con rapidez situaciones de urgencia como la apertura de cerraduras forzadas, atascadas o bloqueos automotrices.",
+        "faq_title": "Preguntas Frecuentes sobre Urgencias",
+        "faq_q1": "¿Cuánto tiempo tardará un cerrajero de Sureste Cerrajeros en llegar a {{city}} tras mi llamada?",
+        "faq_a1": "Nuestro objetivo es llegar lo antes posible. Tras su llamada, nuestro equipo localiza al cerrajero más cercano en {{city}}, por lo tanto el tiempo de llegada dependerá de la distancia y la situación del tráfico, pero siempre priorizando la máxima rapidez en su servicio de urgencia.",
+        "internal_link1": "Para una cobertura completa, confía en nuestro <0>servicio de cerrajería en la ciudad de {{city}}</0>.",
+        "internal_link2": "Para más información sobre nuestros servicios de cerrajería, visite nuestra <0>página principal </0>."
+    },
+    "location": {
+        "tag": "Ubicación",
+        "title": "¿Dónde encontrarnos?",
+        "address_title": "Oficina central:"
+    },
+    "brands_section": {
+        "tag": "Confianza en Cada Llave",
+        "title": "Marcas que Trabajamos",
+        "desc": "Trabajamos con las marcas más reconocidas de cerraduras y llaves."
+    },
+    "cars_section": {
+        "tag": "Cerrajería de Automoción",
+        "title": "Especialistas en Todas las Marcas"
+    },
+    "footer": {
+        "desc": "Servimos a los propietarios con orgullo utilizando materiales duraderos, de alta calidad y artesanía experta para una protección duradera y tranquilidad.",
+        "company": "Empresa",
+        "nav_home": "Inicio",
+        "nav_about": "Sobre Nosotros",
+        "nav_services": "Servicios",
+        "nav_portfolio": "Trabajos",
+        "nav_zones": "Zonas",
+        "social": "Redes Sociales",
+        "contact": "Contacto",
+        "aviso": "AVISO LEGAL",
+        "privacidad": "POLÍTICA DE PRIVACIDAD",
+        "cookies": "POLÍTICA DE COOKIES",
+        "rights": "© 2026 Locksmith Solutions. Todos los derechos reservados."
+    },
+    "cookies": {
+        "title": "Configuración de Cookies",
+        "desc": "Utilizamos cookies para mejorar su experiencia y analizar el tráfico. Puede aceptar todas las cookies o configurar sus preferencias.",
+        "accept": "Aceptar todas",
+        "decline": "Solo esenciales",
+        "settings": "Ver detalles",
+        "hide_settings": "Ocultar detalles",
+        "tech_title": "AVISO LEGAL",
+        "tech_desc": "Información sobre la titularidad del sitio web y condiciones legales de uso.",
+        "analysis_title": "POLÍTICA DE PRIVACIDAD",
+        "analysis_desc": "Detalles sobre cómo protegemos y tratamos sus datos personales.",
+        "marketing_title": "POLÍTICA DE COOKIES",
+        "marketing_desc": "Información detallada sobre el uso de cookies y cómo gestionarlas.",
+        "read_more": "Leer más"
+    }
+}
