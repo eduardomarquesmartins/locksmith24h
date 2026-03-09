@@ -110,6 +110,7 @@
         "title": "Régions que Nous Desservons",
         "desc": "Nous assurons un service de serrurerie immédiat dans toute la province."
     },
+<<<<<<< HEAD
     "city_page": {
         "title": "Serrurier à {{city}} | Urgent | Dès 60 euros",
         "hero_tag": "Urgent",
@@ -147,6 +148,8 @@
         "internal_link1": "Pour une couverture complète, faites confiance à notre <0>service de serrurerie dans la ville de {{city}}</0>.",
         "internal_link2": "Pour plus d'informations, visitez notre <0>page d'accueil</0>."
     },
+=======
+>>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
     "location": {
         "tag": "Emplacement",
         "title": "Où nous trouver ?",

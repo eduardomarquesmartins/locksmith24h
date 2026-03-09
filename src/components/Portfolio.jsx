@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import React, { useState, useEffect, useRef } from 'react';
+=======
+import React, { useState, useEffect } from 'react';
+>>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { CheckCircle2, X } from 'lucide-react';
 
+<<<<<<< HEAD
 // Eager load all gallery photos at module level so they are available instantly
 const photoModules = import.meta.glob('../assets/images/gallery/*.webp', { eager: true });
 const allPhotos = Object.values(photoModules).map(mod => mod.default);
@@ -10,6 +15,44 @@ const allPhotos = Object.values(photoModules).map(mod => mod.default);
 const Portfolio = () => {
     const { t } = useTranslation();
     const [selectedImg, setSelectedImg] = useState(null);
+=======
+const Portfolio = () => {
+    const { t } = useTranslation();
+    const [selectedImg, setSelectedImg] = useState(null);
+    const [allGalleryPhotos, setAllGalleryPhotos] = useState([]);
+
+    useEffect(() => {
+        // Dynamic import for all service and work photos (lazy loading)
+        const photoModules = import.meta.glob('../assets/images/gallery/*.webp');
+
+        const loadPhotos = async () => {
+            const photoPromises = Object.values(photoModules).map(importFn => importFn());
+            const photoResults = await Promise.all(photoPromises);
+
+            const loadedPhotos = photoResults.map(mod => mod.default);
+            setAllGalleryPhotos(loadedPhotos);
+        };
+
+        loadPhotos();
+    }, []);
+
+    if (allGalleryPhotos.length === 0) {
+        return (
+            <section id="portfolio" className="portfolio-section">
+                <div className="container">
+                    <div className="portfolio-header">
+                        <span className="sub-tag">{t('portfolio.tag')}</span>
+                        <h2>{t('portfolio.title')}</h2>
+                        <p>{t('portfolio.desc')}</p>
+                    </div>
+                    <div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div className="loader"></div>
+                    </div>
+                </div>
+            </section>
+        );
+    }
+>>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
 
     return (
         <section id="portfolio" className="portfolio-section">
@@ -26,13 +69,21 @@ const Portfolio = () => {
                     <div className="carousel-track-inner auto-scroll">
                         {[...Array(2)].map((_, i) => (
                             <React.Fragment key={i}>
+<<<<<<< HEAD
                                 {allPhotos.map((img, index) => (
+=======
+                                {allGalleryPhotos.map((img, index) => (
+>>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
                                     <div
                                         key={`${i}-${index}`}
                                         className="portfolio-card"
                                         onClick={() => setSelectedImg(img)}
                                     >
+<<<<<<< HEAD
                                         <img src={img} alt={`Serviço ${index + 1}`} decoding="async" />
+=======
+                                        <img src={img} alt={`Serviço ${index + 1}`} loading="lazy" decoding="async" />
+>>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
                                         <div className="portfolio-overlay">
                                             <div className="expand-btn">
                                                 <CheckCircle2 size={24} color="#00a651" />

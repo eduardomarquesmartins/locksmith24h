@@ -110,6 +110,7 @@
         "title": "Regiões que Atendemos",
         "desc": "Atendimento rápido de chaveiro em toda a extensão da província."
     },
+<<<<<<< HEAD
     "city_page": {
         "title": "Chaveiro em {{city}} | Urgente | A partir de 60 euros",
         "hero_tag": "Serviço 24 Horas",
@@ -150,6 +151,8 @@
         "internal_link1": "Para uma cobertura completa, confie no nosso <0>serviço de chaveiro na cidade de {{city}}</0>.",
         "internal_link2": "Para mais informações, visite a nossa <0>página principal</0>."
     },
+=======
+>>>>>>> 6ab819e3e660131a79a15e4d46c843293c7d3d87
     "location": {
         "tag": "Localização",
         "title": "Onde nos encontrar?",
