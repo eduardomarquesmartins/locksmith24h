@@ -91,8 +91,8 @@ function AppContent() {
                         <Link to="/#sobre">{t('nav.about')}</Link>
                         <Link to="/#servicos">{t('nav.services')}</Link>
                         <Link to="/#portfolio">{t('nav.portfolio')}</Link>
-                        <Link to="/#marcas">{t('nav.brands')}</Link>
                         <Link to="/#zonas">{t('nav.zones')}</Link>
+                        <Link to="/#marcas">{t('nav.brands')}</Link>
                     </div>
 
                     <div className="nav-actions">
