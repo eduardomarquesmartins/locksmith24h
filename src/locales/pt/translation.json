@@ -1,0 +1,241 @@
+{
+    "nav": {
+        "about": "Sobre Nós",
+        "services": "Serviços 24h",
+        "portfolio": "Trabalhos",
+        "brands": "Marcas",
+        "zones": "Onde Atendemos",
+        "contact": "CONTATO"
+    },
+    "mobileMenu": {
+        "about": "Quem Somos",
+        "services": "O que Fazemos",
+        "portfolio": "Trabalhos Realizados",
+        "brands": "Marcas",
+        "zones": "Zonas de Atendimento"
+    },
+    "hero": {
+        "title1": "CÓPIA DE CHAVES E",
+        "title2": "CHAVEIRO AUTOMOTIVO",
+        "subtitle_badge": "URGÊNCIAS 24 HORAS",
+        "subtitle_text": "Especialistas em chaves de carro, comandos à distância e aberturas técnicas sem danos. Atendimento rápido no local em toda a região.",
+        "card_status": "Atendimento 24h",
+        "card_role": "Técnico Disponível",
+        "call_now": "Ligue Agora",
+        "write_us": "Escreva-nos"
+    },
+    "sales_cta": { "live_status": "TÉCNICO DISPONÍVEL AGORA",
+        "title": "Trancado para fora? Resolvemos AGORA!",
+        "subtitle": "Técnicos especialistas a caminho. Abrimos seu veículo em tempo recorde. Orçamento GRÁTIS por telefone!",
+        "call_btn": "LIGAR AGORA",
+        "wa_btn": "CONSULTAR"
+    },
+    "emergency_cases": {
+        "title": "Problemas com a chave do seu carro?",
+        "subtitle": "Chaveiros especialistas prontos para sair agora. Qual é o seu caso?",
+        "case1_title": "Chaves no Interior?",
+        "case1_desc": "Abertura técnica de veículos 100% sem danos. Abrimos o seu carro rapidamente se esqueceu as chaves dentro ou a fechadura bloqueou.",
+        "case2_title": "Canhão de Ignição Preso?",
+        "case2_desc": "A chave não gira ou a ignição está bloqueada? Reparamos o canhão ou trocamos as peças no local para que possa voltar a circular.",
+        "case3_title": "Perdeu as Chaves?",
+        "case3_desc": "Fazemos chaves novas a partir da fechadura (Perda de Chaves). Programação eletrónica e comandos novos na hora para qualquer marca.",
+        "btn": "LIGAR PARA CHAVEIRO"
+    },
+    "about": {
+        "tag": "Especialistas em Carros",
+        "title": "Serviços de Chaveiro para o seu Veículo",
+        "subtitle": "Tecnologia avançada para chaves e comandos de todas as marcas.",
+        "p1": "Na Locksmith Solutions, resolvemos imprevistos com chaves de carro e comandos num único local. O nosso foco é garantir que recupera o acesso ao seu veículo e a mobilidade de forma rápida.",
+        "p2": "Equipados com máquinas de corte eletrónico e software de diagnóstico de última geração, resolvemos 99% dos problemas no local, sem necessidade de reboque."
+    },
+    "expert_cta": {
+        "badge": "ESPECIALISTAS EM ABERTURAS",
+        "title": "Trancado fora do seu Carro?",
+        "subtitle": "Não perca tempo nem dinheiro em concessionários. Abrimos o seu veículo e resolvemos o seu problema de chaves com rapidez garantida. Chegamos em 20-30 minutos!",
+        "wa_btn": "AJUDE-ME",
+        "call_btn": "LIGAR AGORA"
+    },
+    "portfolio": {
+        "tag": "Serviços Recentes",
+        "video_tag": "Casos Reais",
+        "title": "O que temos feito",
+        "desc": "Conheça alguns dos serviços de chaves e aberturas realizados pela nossa equipa em toda a província.",
+        "btn_view": "Ver Trabalho",
+        "video_title": "Precisão em Cada Chave",
+        "video_desc": "Assistências reais, soluções imediatas. Veja como a nossa equipa resolve emergências no local.",
+        "video_item1": "Programação de Chaves",
+        "video_item2": "Cópia de Comandos",
+        "video_item3": "Abertura sem Danos",
+        "video_badge": "TRABALHO REAL",
+        "video_item4": "Chaveiro Especialista"
+    },
+    "services": {
+        "tag": "Nossas Soluções",
+        "title": "CHAVEIRO AUTOMOTIVO",
+        "desc": "Soluções profissionais para chaves eletrónicas, comandos e fechaduras de qualquer veículo.",
+        "auto_title": "CHAVES COMANDO",
+        "auto_desc": "Programação completa de chaves inteligentes, comandos à distância e Smart Keys para todas as marcas.",
+        "keys_title": "CÓPIAS DE PRECISÃO",
+        "keys_desc": "Duplicação de chaves de carro com máquinas eletrónicas que garantem um funcionamento perfeito na ignição e portas.",
+        "vehicle_locks_title": "FECHADURAS E CANHÕES",
+        "vehicle_locks_desc": "Reparação e substituição de canhões de porta e ignição. Resolvemos problemas mecânicos no local.",
+        "emergency_title": "ABERTURA DE CARROS",
+        "emergency_desc": "Abrimos o seu veículo sem causar qualquer estrago na pintura ou guarnições. Técnicas profissionais 24h.",
+        "access_title": "EMERGÊNCIA 24H",
+        "access_desc": "Carrinhas equipadas prontas em toda a região para resolver problemas de chaves em tempo recorde, dia ou noite.",
+        "remote_repair_title": "REPARAÇÃO DE COMANDOS",
+        "remote_repair_desc": "Recuperamos o funcionamento de comandos e botões estragados, mudando pilhas e capas deterioradas."
+    },
+    "why_choose": {
+        "tag": "Vantagens",
+        "title": "Chaveiro de Carros perto de si",
+        "desc": "A Locksmith Solutions oferece rapidez e tecnologia de ponta para que nunca fique parado por falta de chaves.",
+        "col1_title": "Qualidade Premium",
+        "col1_desc": "Oferecemos o melhor serviço de chaveiro automotivo com a melhor relação qualidade-preço.",
+        "how_tag": "COMO FUNCIONA",
+        "how_title": "Cuidando do seu veículo <br/> como se fosse nosso",
+        "col3_percent": "100%",
+        "col3_desc": "Dos nossos clientes recomendam os nossos serviços de chaveiro automotivo pela eficácia e rapidez.",
+        "btn_call": "FALAR COM TÉCNICO"
+    },
+    "steps": {
+        "step1_title": "Ligue para Nós",
+        "step1_desc": "Diga-nos a marca e o modelo do seu carro. Damos-lhe uma previsão de chegada imediata.",
+        "step2_title": "Orçamento Transparente",
+        "step2_desc": "O técnico avalia o problema no local e indica o valor justo para a cópia ou abertura antes de começar.",
+        "step3_title": "Serviço Concluído",
+        "step3_desc": "Resolvemos o problema na hora, testamos a chave nova consigo e deixamos tudo operacional."
+    },
+    "testimonials": {
+        "tag": "Feedback",
+        "title": "O QUE DIZEM OS CLIENTES",
+        "desc": "Relatos reais de quem precisou de um chaveiro de carros urgente e confiou no nosso trabalho.",
+        "client": "Cliente Satisfeito",
+        "t1_text": "SERVIÇO RÁPIDO E MUITO PROFISSIONAL",
+        "t2_text": "Chegaram em 20 minutos e fizeram uma chave nova para o meu carro no local. Muito recomendado!",
+        "t3_text": "Arranjaram o comando do meu carro que não funcionava há meses. Serviço impecável e preço justo."
+    },
+    "cta": {
+        "tag": "Precisa de uma Chave Nova?",
+        "title": "Cópia de Chaves Automotivas <br /> e Abertura de Veículos 24h"
+    },
+    "areas": {
+        "tag": "Cobertura Local",
+        "title": "Zonas onde Trabalhamos",
+        "desc": "Prestamos serviço imediato de chaveiro automotivo em toda a província com unidades móveis."
+    },
+    "city_page": {
+        "title": "Chaveiro de Carros em {{city}} 24h | Cópia de Chaves e Aberturas",
+        "hero_tag": "CHAVEIRO URGENTE",
+        "call_btn": "Ligar: +34 602 659 054",
+        "wa_btn": "Escreva-nos",
+        "why_us": "Vantagens do nosso Serviço em {{city}}",
+        "arrival": "Chegada em 20-30 minutos",
+        "price": "Preços Claros e Acessíveis",
+        "no_damage": "Abertura sem Danos",
+        "warranty": "Garantia em todos os serviços",
+        "intro_title": "Chaveiro Automotivo em {{city}}",
+        "intro_text": "Perdeu as chaves do carro ou esqueceu-as no interior em {{city}}? Na Locksmith Solutions, somos especialistas em resolver esses imprevistos rapidamente. Se está em {{city}} e precisa de uma cópia de chave ou de abrir o seu carro, o nosso técnico está pronto para ajudar agora mesmo.",
+        "advantages_title": "Serviço de Chaveiro de Carros em {{city}} 24 Horas",
+        "advantages_text": "Estamos disponíveis 24 horas por dia em toda a área de {{city}}. Não importa a marca do seu veículo, temos a tecnologia necessária para garantir que volta a circular o mais depressa possível.",
+        "how_works_title": "Como chamar um chaveiro em {{city}} agora?",
+        "how_works_text": "Basta ligar. Diga-nos a sua localização em {{city}} e o modelo do carro. Enviaremos o técnico mais próximo imediatamente, equipado com máquinas de corte e programação.",
+        "solutions_tag": "O que Fazemos",
+        "solutions_title": "Soluções Práticas para o seu Carro",
+        "solutions_desc": "Temos o conhecimento para lidar com qualquer imprevisto com as chaves do seu veículo:",
+        "sol1": "Abertura de Veículos sem Danos",
+        "sol1_desc": "Abrimos o seu carro ou carrinha usando métodos que preservam a integridade da fechadura e pintura.",
+        "sol2": "Cópia de Chaves e Comandos",
+        "sol2_desc": "Se perdeu as chaves ou precisa de um duplicado, programamos comandos e smart keys na hora.",
+        "sol3": "Reparação de Canhões de Ignição",
+        "sol3_desc": "Avaliamos o problema e reparamos ou substituímos os componentes para que o carro volte a arrancar.",
+        "sol4": "Extração de Chaves Partidas",
+        "sol4_desc": "Retiramos fragmentos de chaves do canhão da porta ou ignição sem causar estragos adicionais.",
+        "sol5": "Chaveiro de Urgência 24h",
+        "sol5_desc": "Assistência imediata para qualquer perda de chaves ou bloqueio de veículos na região.",
+        "neighborhoods_tag": "Proximidade",
+        "neighborhoods_title": "Atendimento em todos os Bairros de {{city}}",
+        "neighborhoods_desc": "Cobrimos todas as zonas de {{city}} com unidades móveis preparadas para intervir em tempo recorde:",
+        "special_title": "Chaveiro Especialista em {{city}}",
+        "special_desc": "Somos especialistas em aberturas técnicas. Se o seu carro em {{city}} ficou trancado com a chave dentro, resolvemos de forma limpa e profissional.",
+        "faq_title": "Perguntas Frequentes",
+        "faq_q1": "Quanto tempo demora o chaveiro a chegar em {{city}}?",
+        "faq_a1": "Em {{city}}, o tempo médio de chegada é de 20 a 30 minutos. O técnico ligará assim que estiver a chegar à sua localização.",
+        "internal_link1": "Para resolver o seu problema, confie no nosso <0>serviço de chaveiro em {{city}}</0>.",
+        "internal_link2": "Consulte todos os nossos serviços na <0>página inicial</0>."
+    },
+    "location": {
+        "tag": "Onde Estamos",
+        "title": "Localização do Serviço",
+        "address_title": "Escritório Central:"
+    },
+    "brands_section": {
+        "tag": "Material de Qualidade",
+        "title": "Trabalhamos com Todas as Marcas",
+        "desc": "Programamos chaves para BMW, Mercedes, Audi, Volkswagen, Ford, Renault, Peugeot e muito mais."
+    },
+    "cars_section": {
+        "tag": "Equipa Técnica",
+        "title": "Especialistas em Chaves Automotivas"
+    },
+    "footer": {
+        "desc": "Ajudamos os proprietários de veículos a resolver problemas de chaves e comandos com rapidez e tecnologia de ponta.",
+        "need_help": "Precisa de ajuda?",
+        "company": "Empresa",
+        "nav_home": "Início",
+        "nav_about": "Sobre Nós",
+        "nav_services": "Serviços",
+        "nav_portfolio": "Trabalhos",
+        "nav_zones": "Zonas",
+        "social": "Redes Sociais",
+        "contact": "Contacto Urgente",
+        "aviso": "AVISO LEGAL",
+        "privacidad": "PRIVACIDADE",
+        "cookies": "COOKIES",
+        "rights": "© 2026 Locksmith Solutions. Chaveiro Automotivo 24h. Todos os direitos reservados."
+    },
+    "cookies": {
+        "title": "Uso de Cookies",
+        "desc": "Usamos cookies para melhorar a sua experiência. Pode aceitar ou configurar as suas preferências.",
+        "accept": "Aceitar",
+        "decline": "Recusar",
+        "settings": "Informações",
+        "hide_settings": "Fechar",
+        "tech_title": "AVISO LEGAL",
+        "tech_desc": "Informações legais sobre a utilização deste site.",
+        "analysis_title": "POLÍTICA DE PRIVACIDADE",
+        "analysis_desc": "Como tratamos os seus dados pessoais.",
+        "marketing_title": "POLÍTICA DE COOKIES",
+        "marketing_desc": "Detalhes sobre os cookies que utilizamos.",
+        "read_more": "Saber mais"
+    },
+    "inline_cta1": {
+        "title": "Perdeu TODAS as chaves do seu carro?",
+        "subtitle": "Fazemos chaves novas do zero em tempo record. Evite gruas e preços inflacionados de concessionários. Estamos a caminho!",
+        "btn": "SOLICITAR TÉCNICO URGENTE"
+    },
+    "legal": {
+        "aviso_title": "AVISO LEGAL",
+        "privacidad_title": "POLÍTICA DE PRIVACIDADE",
+        "cookies_title": "POLÍTICA DE COOKIES",
+        "aviso_content": "<h4>Titularidade do sítio web</h4><p>Em conformidade com a legislação vigente, informamos que este sítio web é propriedade de:</p><ul><li><strong>Nome comercial:</strong> Locksmith Solutions</li><li><strong>Titular:</strong> Elvis pinheiro da Silva de Jesus</li><li><strong>DNI:</strong> 60680450X</li><li><strong>Morada:</strong> C. Pico Lobo, 7A, 03189 Orihuela, Alicante</li><li><strong>Telefone:</strong> 602 659 054</li></ul><h4>Objeto</h4><p>O sítio web oferece informações sobre os serviços de chaveiro urgente 24h.</p><h4>Condições de uso</h4><p>O utilizador compromete-se a utilizar a web conforme a legislação vigente e a boa fé.</p><h4>Propriedade intelectual</h4><p>Todos os conteúdos (textos, imagens, logos) são propriedade da Locksmith Solutions.</p>",
+        "privacidad_content": "<p><em>Última atualização: 03/03/2026</em></p><p>Protegemos a sua privacidade conforme o regulamento de proteção de dados (RGPD).</p><h4>1. Responsável pelo tratamento</h4><ul><li><strong>Titular:</strong> Elvis pinheiro da Silva de Jesus</li><li><strong>DNI:</strong> 60680450X</li><li><strong>Morada:</strong> C. Pico Lobo, 7A, 03189 Orihuela, Alicante</li></ul><h4>2. Finalidade</h4><p>Tratamos os seus dados pessoais para responder a consultas, gerir marcações e prestar serviços solicitados.</p><h4>3. Direitos</h4><p>Pode exercer os seus direitos de acesso, retificação, supressão e oposição enviando um email para <strong>locksmith.orihuela@gmail.com</strong> com cópia do CC/DNI.</p>",
+        "cookies_policy_content": "<p>Este sítio utiliza cookies para melhorar a experiência de navegação e realizar análises anónimas.</p><h4>O que são cookies?</h4><p>Pequenos ficheiros que reconhecem o seu navegador e guardam preferências.</p><h4>Tipos de cookies</h4><ul><li><strong>Técnicas:</strong> Imprescindíveis para a web.</li><li><strong>De análise:</strong> Estatísticas de uso.</p><h4>Gestão</h4><p>Pode aceitar, recusar ou configurar as cookies a partir do seu navegador habitual.</p>"
+    },
+    "faq": {
+        "tag": "Perguntas Frequentes",
+        "title": "Resolvemos as suas Dúvidas",
+        "q1": "Porquê nós?",
+        "a1": "Somos especialistas rápidos, honestos e disponíveis 24h com garantia oficial em todos os nossos trabalhos.",
+        "q2": "Solicitar orçamento",
+        "a2": "Pode ligar-nos ou enviar um WhatsApp com uma foto da sua chave ou carro para receber um orçamento sem compromisso em minutos.",
+        "q3": "Resolverão a minha Urgência?",
+        "a3": "Sim, abrimos 99% dos veículos sem causar danos e resolvemos problemas de chaves perdidas no local.",
+        "q4": "Qual é o custo?",
+        "a4": "O preço depende do serviço, mas oferecemos sempre tarifas competitivas e transparentes antes de iniciar o trabalho.",
+        "q5": "Têm peças de reposição?",
+        "a5": "Sim, dispomos de um amplo stock de carcaças, lâminas e comandos para a maioria das marcas do mercado.",
+        "q6": "Estão disponíveis 24 Horas?",
+        "a6": "Absolutamente! Atendemos urgências todos os dias do ano, incluindo feriados e madrugadas em toda a região."
+    }
+}
