@@ -45,6 +45,7 @@ import SantiagoRiberaPage from './pages/cities/SantiagoRibera'
 import SanPedroPage from './pages/cities/SanPedro'
 import CaboPalosPage from './pages/cities/CaboPalos'
 import CartagenaPage from './pages/cities/Cartagena'
+import AlicantePage from './pages/cities/Alicante'
 
 const WhatsAppIcon = ({ size = 24, fill = "currentColor", ...props }) => (
     <svg
@@ -208,6 +209,7 @@ function App() {
                             <Route path="/cerrajero-san-pedro-del-pinatar" element={<SanPedroPage />} />
                             <Route path="/cerrajero-cabo-de-palos" element={<CaboPalosPage />} />
                             <Route path="/cerrajero-cartagena" element={<CartagenaPage />} />
+                            <Route path="/cerrajero-alicante" element={<AlicantePage />} />
 
                             <Route path="/:citySlug" element={<CityBasePage />} />
                             <Route path="*" element={<HomePage t={t} i18n={i18n} openLegal={openLegal} />} />
