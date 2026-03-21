@@ -750,13 +750,21 @@ const HomePage = ({ t, i18n, openLegal }) => {
                                             onMouseLeave={() => setOpenCity(null)}
                                         >
                                             {hasNeighborhoods ? (
-                                                <button
-                                                    className={`area-pill-compact ${isOpen ? 'is-open' : ''}`}
-                                                    onClick={() => setOpenCity(isOpen ? null : name)}
-                                                >
-                                                    {name}
-                                                    <ChevronDown size={14} className={isOpen ? 'rotate-180 transition-transform' : 'transition-transform'} />
-                                                </button>
+                                                <div className={`area-pill-compact ${isOpen ? 'is-open' : ''}`} style={{ display: 'flex', alignItems: 'center', pointerEvents: 'auto' }}>
+                                                    <Link to={`/cerrajero-${slugify(name)}`} style={{ color: 'inherit', textShadow: 'none', border: 'none', background: 'none', flex: 1, padding: '0px', textAlign: 'left', fontWeight: '500' }}>
+                                                        {name}
+                                                    </Link>
+                                                    <div
+                                                        style={{ cursor: 'pointer', paddingLeft: '8px', display: 'flex', alignItems: 'center' }}
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                            e.stopPropagation();
+                                                            setOpenCity(isOpen ? null : name);
+                                                        }}
+                                                    >
+                                                        <ChevronDown size={14} className={isOpen ? 'rotate-180 transition-transform' : 'transition-transform'} />
+                                                    </div>
+                                                </div>
                                             ) : (
                                                 <Link to={`/cerrajero-${slugify(name)}`} className="area-pill-compact">
                                                     {name}
