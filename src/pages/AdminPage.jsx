@@ -94,17 +94,17 @@ const AdminPage = () => {
 
           <label>
             Google Tag Manager
-            <input value={form.gtmId} onChange={(event) => updateField('gtmId', event.target.value)} />
+            <input value={form.gtmId} onChange={(event) => updateField('gtmId', event.target.value)} placeholder="GTM-XXXXXXX" />
           </label>
 
           <label>
             Google Ads
-            <input value={form.googleAdsId} onChange={(event) => updateField('googleAdsId', event.target.value)} />
+            <input value={form.googleAdsId} onChange={(event) => updateField('googleAdsId', event.target.value)} placeholder="AW-00000000000" />
           </label>
 
           <label>
             Google Analytics 4
-            <input value={form.ga4Id} onChange={(event) => updateField('ga4Id', event.target.value)} />
+            <input value={form.ga4Id} onChange={(event) => updateField('ga4Id', event.target.value)} placeholder="G-XXXXXXXXXX" />
           </label>
 
           <button className="admin-save" type="submit" disabled={isSaving || !password || !hasConfiguredTag}>
